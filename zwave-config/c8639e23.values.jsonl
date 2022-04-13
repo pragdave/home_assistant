@@ -326,12 +326,12 @@
 {"k":"{\"nodeId\":8,\"commandClass\":44,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":0}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":0}
-{"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":119.87}
+{"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":119.67}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0}
 {"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":-21474824.47}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":39.06}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":120.39}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.34}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":38.98}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":120.44}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.33}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"manufacturerId\"}","v":600}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"productType\"}","v":256}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"productId\"}","v":4135}
@@ -594,5 +594,3 @@
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":252}","v":0}
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Illuminance\"}","v":27}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":120.64}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.33}

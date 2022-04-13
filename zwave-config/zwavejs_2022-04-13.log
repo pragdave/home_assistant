@@ -21424,3 +21424,179 @@
                                       value:       0.33
                                       time delta:  301 seconds
                                       prev. value: 0.34
+2022-04-13T21:50:11.888Z SERIAL « 0x01140004000c0e3202214400000000012d0000000094                      (22 bytes)
+2022-04-13T21:50:11.889Z CNTRLR   [Node 012] [~] [Meter] value[65537]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:50:11.891Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:50:11.893Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       kWh
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:50:11.927Z SERIAL « 0x01140004000c0e3202215400000000012d0000000084                      (22 bytes)
+2022-04-13T21:50:11.928Z CNTRLR   [Node 012] [~] [Meter] value[66049]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:50:11.928Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:50:11.929Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       W
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:50:12.106Z SERIAL « 0x01100004000c0a3202a1422eab012d2ed36a                              (18 bytes)
+2022-04-13T21:50:12.106Z CNTRLR   [Node 012] [~] [Meter] value[66561]: 119.87 => 119.47             [Endpoint 0]
+2022-04-13T21:50:12.107Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:50:12.108Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       V
+                                      rate type:   Consumed
+                                      value:       119.47
+                                      time delta:  301 seconds
+                                      prev. value: 119.87
+2022-04-13T21:50:12.134Z SERIAL « 0x01100004000c0a3202a14a0000012d00001a                              (18 bytes)
+2022-04-13T21:50:12.135Z CNTRLR   [Node 012] [~] [Meter] value[66817]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:50:12.136Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:50:12.136Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       A
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:51:22.384Z SERIAL « 0x01140004000e0e32022144800004b1012d800004b196                      (22 bytes)
+2022-04-13T21:51:22.385Z CNTRLR   [Node 014] [~] [Meter] value[65537]: -21474824.47 => -21474824.47 [Endpoint 0]
+2022-04-13T21:51:22.386Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:51:22.387Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       kWh
+                                      rate type:   Consumed
+                                      value:       -21474824.47
+                                      time delta:  301 seconds
+                                      prev. value: -21474824.47
+2022-04-13T21:51:22.415Z SERIAL « 0x01140004000e0e3202215400000f3e012d00000f42fa                      (22 bytes)
+2022-04-13T21:51:22.416Z CNTRLR   [Node 014] [~] [Meter] value[66049]: 39.06 => 39.02               [Endpoint 0]
+2022-04-13T21:51:22.416Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:51:22.416Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       W
+                                      rate type:   Consumed
+                                      value:       39.02
+                                      time delta:  301 seconds
+                                      prev. value: 39.06
+2022-04-13T21:51:22.445Z SERIAL « 0x01100004000e0a3202a1422f2e012d2f201e                              (18 bytes)
+2022-04-13T21:51:22.446Z CNTRLR   [Node 014] [~] [Meter] value[66561]: 120.64 => 120.78             [Endpoint 0]
+2022-04-13T21:51:22.447Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:51:22.447Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       V
+                                      rate type:   Consumed
+                                      value:       120.78
+                                      time delta:  301 seconds
+                                      prev. value: 120.64
+2022-04-13T21:51:22.475Z SERIAL « 0x01100004000e0a3202a14a0021012d002118                              (18 bytes)
+2022-04-13T21:51:22.476Z CNTRLR   [Node 014] [~] [Meter] value[66817]: 0.33 => 0.33                 [Endpoint 0]
+2022-04-13T21:51:22.477Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:51:22.477Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       A
+                                      rate type:   Consumed
+                                      value:       0.33
+                                      time delta:  301 seconds
+                                      prev. value: 0.33
+2022-04-13T21:55:11.874Z SERIAL « 0x01140004000c0e3202214400000000012d0000000094                      (22 bytes)
+2022-04-13T21:55:11.877Z CNTRLR   [Node 012] [~] [Meter] value[65537]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:55:11.878Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:55:11.878Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       kWh
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:55:11.945Z SERIAL « 0x01140004000c0e3202215400000000012d0000000084                      (22 bytes)
+2022-04-13T21:55:11.945Z CNTRLR   [Node 012] [~] [Meter] value[66049]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:55:11.946Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:55:11.946Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       W
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:55:12.055Z SERIAL « 0x01100004000c0a3202a1422ebf012d2eab06                              (18 bytes)
+2022-04-13T21:55:12.056Z CNTRLR   [Node 012] [~] [Meter] value[66561]: 119.47 => 119.67             [Endpoint 0]
+2022-04-13T21:55:12.056Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:55:12.057Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       V
+                                      rate type:   Consumed
+                                      value:       119.67
+                                      time delta:  301 seconds
+                                      prev. value: 119.47
+2022-04-13T21:55:12.083Z SERIAL « 0x01100004000c0a3202a14a0000012d00001a                              (18 bytes)
+2022-04-13T21:55:12.084Z CNTRLR   [Node 012] [~] [Meter] value[66817]: 0 => 0                       [Endpoint 0]
+2022-04-13T21:55:12.084Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:55:12.085Z DRIVER « [Node 012] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       A
+                                      rate type:   Consumed
+                                      value:       0
+                                      time delta:  301 seconds
+                                      prev. value: 0
+2022-04-13T21:56:22.382Z SERIAL « 0x01140004000e0e32022144800004b1012d800004b196                      (22 bytes)
+2022-04-13T21:56:22.384Z CNTRLR   [Node 014] [~] [Meter] value[65537]: -21474824.47 => -21474824.47 [Endpoint 0]
+2022-04-13T21:56:22.385Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:56:22.386Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       kWh
+                                      rate type:   Consumed
+                                      value:       -21474824.47
+                                      time delta:  301 seconds
+                                      prev. value: -21474824.47
+2022-04-13T21:56:22.414Z SERIAL « 0x01140004000e0e3202215400000f3a012d00000f3e82                      (22 bytes)
+2022-04-13T21:56:22.414Z CNTRLR   [Node 014] [~] [Meter] value[66049]: 39.02 => 38.98               [Endpoint 0]
+2022-04-13T21:56:22.415Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:56:22.415Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       W
+                                      rate type:   Consumed
+                                      value:       38.98
+                                      time delta:  301 seconds
+                                      prev. value: 39.02
+2022-04-13T21:56:22.444Z SERIAL « 0x01100004000e0a3202a1422f0c012d2f2e32                              (18 bytes)
+2022-04-13T21:56:22.444Z CNTRLR   [Node 014] [~] [Meter] value[66561]: 120.78 => 120.44             [Endpoint 0]
+2022-04-13T21:56:22.445Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:56:22.446Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       V
+                                      rate type:   Consumed
+                                      value:       120.44
+                                      time delta:  301 seconds
+                                      prev. value: 120.78
+2022-04-13T21:56:22.474Z SERIAL « 0x01100004000e0a3202a14a0021012d002118                              (18 bytes)
+2022-04-13T21:56:22.475Z CNTRLR   [Node 014] [~] [Meter] value[66817]: 0.33 => 0.33                 [Endpoint 0]
+2022-04-13T21:56:22.475Z SERIAL » [ACK]                                                                   (0x06)
+2022-04-13T21:56:22.476Z DRIVER « [Node 014] [REQ] [ApplicationCommand]
+                                  └─[MeterCCReport]
+                                      type:        Electric
+                                      scale:       A
+                                      rate type:   Consumed
+                                      value:       0.33
+                                      time delta:  301 seconds
+                                      prev. value: 0.33
