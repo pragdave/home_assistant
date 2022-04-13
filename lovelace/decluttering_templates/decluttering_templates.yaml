@@ -1,0 +1,17 @@
+  switch_button_card:
+    !include switch-template.yaml
+
+  header_text:
+    !include header-template.yaml
+
+  notification_template:
+    !include notification-template.yaml
+
+  person_more_info:
+    !include person-more-info.yaml
+
+  nest_button:
+    !include nest_button.yaml
+
+  nest_picture_button:
+    !include nest_picture_button.yaml

@@ -1,0 +1,125 @@
+2022-04-12 20:39:10 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-04-12 20:39:12 WARNING (MainThread) [hass_nabucasa.cloud_api] Fetched https://alexa-api.nabucasa.com/access_token (400)
+2022-04-12 20:40:10 WARNING (Recorder) [homeassistant.components.sensor.recorder] Entity sensor.wall_plug_switch_electric_consumption_kwh_2 from integration zwave_js has state class total_increasing, but its state is negative. Triggered by state -21474827.06 with last_updated set to 2022-04-12T20:36:22.793633+00:00. Please create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22integration%3A+zwave_js%22
+2022-04-12 23:09:14 ERROR (MainThread) [homeassistant.components.nws] Error requesting NWS forecast station kdfw data: 500, message='Internal Server Error', url=URL('https://api.weather.gov/gridpoints/FWD/83,121/forecast')
+2022-04-13 04:49:42 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall light.turn_off (c:60f72a8dd8972c725756c709c04a817d): entity_id=['light.z_wave_outdoor_smart_plug'], params=>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1652, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1671, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 204, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 677, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 955, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 714, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 513, in async_handle_light_off_service
+    await light.async_turn_off(**filter_turn_off_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/light.py", line 294, in async_turn_off
+    await self._async_set_brightness(0, kwargs.get(ATTR_TRANSITION))
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/light.py", line 347, in _async_set_brightness
+    await self.info.node.async_set_value(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 441, in async_set_value
+    result = await self.async_send_command(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 398, in async_send_command
+    result = await self.client.async_send_command(message, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/client.py", line 103, in async_send_command
+    return await future
+zwave_js_server.exceptions.FailedZWaveCommand: Z-Wave error 204: Failed to send the command after 3 attempts (Status NoAck) (ZW0204)
+2022-04-13 04:49:50 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall light.turn_off (c:8919378b0538553fe3459798248b93c4): entity_id=['light.z_wave_outdoor_smart_plug'], params=>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1652, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1671, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 204, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 677, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 955, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 714, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 513, in async_handle_light_off_service
+    await light.async_turn_off(**filter_turn_off_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/light.py", line 294, in async_turn_off
+    await self._async_set_brightness(0, kwargs.get(ATTR_TRANSITION))
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/light.py", line 347, in _async_set_brightness
+    await self.info.node.async_set_value(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 441, in async_set_value
+    result = await self.async_send_command(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 398, in async_send_command
+    result = await self.client.async_send_command(message, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/client.py", line 103, in async_send_command
+    return await future
+zwave_js_server.exceptions.FailedZWaveCommand: Z-Wave error 202: The message cannot be sent because node 13 is dead (ZW0202)
+2022-04-13 05:10:15 ERROR (MainThread) [homeassistant.components.nws] Error requesting NWS forecast station kdfw data: 500, message='Internal Server Error', url=URL('https://api.weather.gov/gridpoints/FWD/83,121/forecast')
+2022-04-13 06:00:28 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall lock.lock (c:765372aabef05f5b737275b09967e002): entity_id=['lock.front_door']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1652, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1671, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 204, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 677, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 955, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 714, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/lock.py", line 121, in async_lock
+    await self._set_lock_state(STATE_LOCKED)
+  File "/usr/src/homeassistant/homeassistant/components/zwave_js/lock.py", line 114, in _set_lock_state
+    await self.info.node.async_set_value(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 441, in async_set_value
+    result = await self.async_send_command(
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/model/node/__init__.py", line 398, in async_send_command
+    result = await self.client.async_send_command(message, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/zwave_js_server/client.py", line 103, in async_send_command
+    return await future
+zwave_js_server.exceptions.FailedZWaveCommand: Z-Wave error 204: Failed to send the command after 1 attempts (Status NoAck) (ZW0204)
+2022-04-13 07:02:54 WARNING (Thread-9) [pychromecast.socket_client] [Kitchen TV(192.168.86.160):8009] Heartbeat timeout, resetting connection
+2022-04-13 07:02:57 ERROR (Thread-9) [pychromecast.socket_client] [Kitchen TV(192.168.86.160):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.86.160', 8009)), retrying in 5.0s
+2022-04-13 07:25:13 ERROR (Thread-6) [pychromecast.socket_client] [Kitchen display(192.168.86.154):8009] Error reading from socket.
+2022-04-13 07:25:13 WARNING (Thread-6) [pychromecast.socket_client] [Kitchen display(192.168.86.154):8009] Error communicating with socket, resetting connection
+2022-04-13 07:25:13 WARNING (zeroconf-ServiceBrowser-_googlecast._tcp-224) [pychromecast.dial] Failed to determine cast type (<urlopen error [Errno 111] Connection refused>)
+2022-04-13 07:25:13 ERROR (Thread-6) [pychromecast.socket_client] [Kitchen display(192.168.86.154):8009] Failed to connect to service ServiceInfo(type='mdns', data='google-nest-hub-3e8e498cc891bd900c4a5121d50c8db0._googlecast._tcp.local.'), retrying in 5.0s
+2022-04-13 07:30:12 ERROR (Thread-8) [pychromecast.socket_client] [Bedroom Wifi(192.168.86.151):8009] Error reading from socket.
+2022-04-13 07:30:12 WARNING (Thread-8) [pychromecast.socket_client] [Bedroom Wifi(192.168.86.151):8009] Error communicating with socket, resetting connection
+2022-04-13 07:30:12 ERROR (Thread-8) [pychromecast.socket_client] [Bedroom Wifi(192.168.86.151):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.86.151', 8009)), retrying in 5.0s
+2022-04-13 09:50:29 WARNING (Thread-7) [pychromecast.socket_client] [Living Room TV(192.168.86.250):8009] Heartbeat timeout, resetting connection
+2022-04-13 09:50:44 ERROR (Thread-7) [pychromecast.socket_client] [Living Room TV(192.168.86.250):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.86.250', 8009)), retrying in 5.0s
+2022-04-13 12:01:34 ERROR (MainThread) [homeassistant.components.nws] Error requesting NWS observation station kdfw data: 502, message='Bad Gateway', url=URL('https://api.weather.gov/stations/kdfw/observations/')
+2022-04-13 12:41:16 ERROR (MainThread) [homeassistant.components.nws] Error requesting NWS forecast station kdfw data: 500, message='Internal Server Error', url=URL('https://api.weather.gov/gridpoints/FWD/83,121/forecast')
+2022-04-13 17:23:05 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.
+2022-04-13 17:23:05 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140588960707488] The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 193, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1634, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1671, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 747, in admin_handler
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/homeassistant/__init__.py", line 173, in async_handle_core_service
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.
+2022-04-13 17:23:17 ERROR (MainThread) [homeassistant.components.homeassistant] The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.
+2022-04-13 17:23:17 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140588960707488] The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 193, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1634, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1671, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 747, in admin_handler
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/homeassistant/__init__.py", line 173, in async_handle_core_service
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: The system cannot restart because the configuration is not valid: Integration error: resources - Integration 'resources' not found.

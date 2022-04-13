@@ -1,0 +1,79 @@
+- platform: mqtt
+  state_topic: "weather/ws-2902c/indoortempf"
+  name: "kitchen temp"
+  unit_of_measurement: "F"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/tempf"
+  name: "temperature"
+  unit_of_measurement: "F"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/dewptf"
+  name: "temperature: dewpoint"
+  unit_of_measurement: "F"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/windchillf"
+  name: "temperature: windchill"
+  unit_of_measurement: "F"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/indoorhumidity"
+  name: "kitchen humidity"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/humidity"
+  name: "humidity"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/solarradiation"
+  name: "solar radiation"
+  unit_of_measurement: "W/m2"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/rainin"
+  name: "rain"
+  unit_of_measurement: "in"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/dailyrainin"
+  name: "rain: daily"
+  unit_of_measurement: "in"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/weeklyrainin"
+  name: "rain: weekly"
+  unit_of_measurement: "in"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/monthlyrainin"
+  name: "rain: monthly"
+  unit_of_measurement: "in"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/windspeedmph"
+  name: "wind: speed"
+  unit_of_measurement: "mph"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/windgustmph"
+  name: "wind: gust"
+  unit_of_measurement: "mph"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/winddir"
+  name: "wind: direction"
+  unit_of_measurement: "deg"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/baromin"
+  name: "barometric pressure"
+  unit_of_measurement: "inHg"
+
+- platform: mqtt
+  state_topic: "weather/ws-2902c/absbaromin"
+  name: "barometric pressure: abs"
+  unit_of_measurement: "inHg"

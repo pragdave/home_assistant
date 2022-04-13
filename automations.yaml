@@ -1,0 +1,46 @@
+- id: '1649534404435'
+  alias: Lock doors at night
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:00:00
+  condition: []
+  action:
+  - device_id: 614e686fafd1050fc32ad45c20e2abfa
+    domain: lock
+    entity_id: lock.back_door
+    type: lock
+  - device_id: d4a330a3abf30e29fe06ea6662a36fe6
+    domain: lock
+    entity_id: lock.front_door
+    type: lock
+  mode: single
+- id: '1649535064519'
+  alias: Turn on deck lights at night
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: '-30'
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 4aa2848e791e1f22f23e599c2d5cbc9e
+    entity_id: light.z_wave_outdoor_smart_plug
+    domain: light
+    brightness_pct: 100
+  mode: single
+- id: '1649786328094'
+  alias: Turn off decklights at dawn
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: 0
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 4aa2848e791e1f22f23e599c2d5cbc9e
+    entity_id: light.z_wave_outdoor_smart_plug
+    domain: light
+  mode: single

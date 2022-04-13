@@ -1,0 +1,18 @@
+
+title: Wall Panel
+
+kiosk_mode:
+  kiosk: false
+
+# Button card templates  
+decluttering_templates:
+  !include_dir_merge_named /config/lovelace/decluttering_templates/
+
+button_card_templates: !include_dir_merge_named lovelace_minimalist/templates/
+   
+background: var(--background-image)   
+views:
+
+    # Kiosk        
+    #- !include /config/lovelace/views/view_kiosk.yaml
+    - !include /config/lovelace_minimalist/views/view_kiosk.yaml

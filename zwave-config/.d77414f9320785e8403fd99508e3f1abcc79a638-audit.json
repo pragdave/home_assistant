@@ -1,0 +1,34 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/usr/src/app/store/.d77414f9320785e8403fd99508e3f1abcc79a638-audit.json",
+    "files": [
+        {
+            "date": 1649523503387,
+            "name": "/usr/src/app/store/zwavejs_2022-04-09.log",
+            "hash": "193a3e4428057639e9f90498c24ee453"
+        },
+        {
+            "date": 1649566800003,
+            "name": "/usr/src/app/store/zwavejs_2022-04-10.log",
+            "hash": "499ee6251e1e852d2cbc9e918f26260b"
+        },
+        {
+            "date": 1649653200004,
+            "name": "/usr/src/app/store/zwavejs_2022-04-11.log",
+            "hash": "7828ccb50bc8280f04197e2f89add28a"
+        },
+        {
+            "date": 1649739600003,
+            "name": "/usr/src/app/store/zwavejs_2022-04-12.log",
+            "hash": "94b65b7d9b4eb0c87800fcdc50ac7c64"
+        },
+        {
+            "date": 1649826000004,
+            "name": "/usr/src/app/store/zwavejs_2022-04-13.log",
+            "hash": "15bbd8a044eeac9fcf221a91b74358b5"
+        }
+    ]
+}
