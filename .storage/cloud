@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "cloud",
+    "data": {
+        "alexa_default_expose": [
+            "climate",
+            "cover",
+            "fan",
+            "humidifier",
+            "light",
+            "lock",
+            "scene",
+            "script",
+            "sensor",
+            "switch",
+            "vacuum",
+            "water_heater"
+        ],
+        "alexa_entity_configs": {},
+        "cloud_user": "2e2ebfbc9bad400d8d7b93c8fc163cd5",
+        "cloudhooks": {
+            "41f64cba30cf84841098e13850f78e93b1a6fcadd39d0d37701100f5f37a0fd8": {
+                "webhook_id": "41f64cba30cf84841098e13850f78e93b1a6fcadd39d0d37701100f5f37a0fd8",
+                "cloudhook_id": "4f6287fc8cc74787b0749dd01b9fae2a",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABiUfQV4ESerPug_Xz1iPLDoAHasr2Pw9CENfO3EsvssuDHGfIU5qsSl6u97OPV57rgBsl5FpgatuaHmlpMqcaKcDmyvfh1fvZyRflNXloDQe7sK8OzoSAoiW4NbAXumxLosfvFFMDrlfLbYj27pSPyidpgNhtToas8dd3H5gXKvkgPnWA=",
+                "managed": true
+            },
+            "c63c764ef28a8f7ba41f6d50e7dca9476cd3229d8ca1dfb4fa030545fe41a452": {
+                "webhook_id": "c63c764ef28a8f7ba41f6d50e7dca9476cd3229d8ca1dfb4fa030545fe41a452",
+                "cloudhook_id": "b62b824ba7874728b063a1f84229be92",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABiWMVyKEKN-ACHTPo7WM0s5BT771zpDy6OK7kzY-1i6jBeQh5i-hcy2LoXthv1SuanCdNmlGfG6G-Wp676pDXt6RjmBd5L3_ePkb5ixxW6mTXyY0mAxOa-2iiRH1QH5R1K18XhUNtHjxiKuCnBKFMFotjkZ2zSwwuyrmwXlMizew07mXg=",
+                "managed": true
+            }
+        },
+        "alexa_enabled": true,
+        "google_enabled": true,
+        "remote_enabled": true,
+        "google_default_expose": [
+            "climate",
+            "cover",
+            "fan",
+            "humidifier",
+            "light",
+            "lock",
+            "scene",
+            "script",
+            "sensor",
+            "switch",
+            "vacuum",
+            "water_heater"
+        ],
+        "google_entity_configs": {},
+        "google_local_webhook_id": "a051ebccc760bd9d97b0b0f5c1fe7f1817302cbe43c9886961484ccb3aa88a46",
+        "google_secure_devices_pin": null,
+        "remote_domain": "63obuyamgb3xwp6fjn1cqjlejlkdpvzf.ui.nabu.casa",
+        "username": "8e9c2bc5-94fa-40c3-ac11-faa10aff5043"
+    }
+}

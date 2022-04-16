@@ -9,7 +9,7 @@
 
 secrets.yaml
 
-.storage
+.storage/auth
 .cloud
 .google.token 
 home-assistant.log

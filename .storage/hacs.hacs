@@ -1,0 +1,24 @@
+{
+    "version": "6",
+    "minor_version": 1,
+    "key": "hacs.hacs",
+    "data": {
+        "view": "Grid",
+        "compact": false,
+        "onboarding_done": false,
+        "archived_repositories": [
+            "dr1rrb/ha-twinkly",
+            "DSorlov/hasl-platform",
+            "iantrich/aftership-card"
+        ],
+        "renamed_repositories": {
+            "DarkSir23/sensor.mylar": "WillowMist/sensor.mylar",
+            "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",
+            "9a4gl/hass-peltec": "9a4gl/hass-centrometal-boiler",
+            "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate",
+            "nbogojevic/homeassistant-midea-dehumidifier-lan": "nbogojevic/homeassistant-midea-air-appliances-lan",
+            "rj175/home-assistant-aws-codepipeline": "ohheyrj/home-assistant-aws-codepipeline"
+        },
+        "ignored_repositories": []
+    }
+}

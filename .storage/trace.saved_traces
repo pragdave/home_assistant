@@ -1,0 +1,132 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "trace.saved_traces",
+    "data": {
+        "automation.1649535064519": [
+            {
+                "extended_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6697be6949de5dfdc6161bbc588d54ca",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-04-16T00:59:42.621667+00:00",
+                        "finish": "2022-04-16T00:59:47.036918+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1649535064519",
+                    "trigger": "sunset with offset",
+                    "trace": {
+                        "trigger/0": [
+                            {
+                                "path": "trigger/0",
+                                "timestamp": "2022-04-16T00:59:42.621725+00:00",
+                                "changed_variables": {
+                                    "this": {
+                                        "entity_id": "automation.new_automation",
+                                        "state": "on",
+                                        "attributes": {
+                                            "last_triggered": "2022-04-15T00:58:58.404918+00:00",
+                                            "mode": "single",
+                                            "current": 0,
+                                            "id": "1649535064519",
+                                            "friendly_name": "Turn on deck lights at night"
+                                        },
+                                        "last_changed": "2022-04-16T00:21:07.299883+00:00",
+                                        "last_updated": "2022-04-16T00:21:07.299883+00:00",
+                                        "context": {
+                                            "id": "14e4efadb4fbbf2c3f5e729db3950ccc",
+                                            "parent_id": null,
+                                            "user_id": null
+                                        }
+                                    },
+                                    "trigger": {
+                                        "id": "0",
+                                        "idx": "0",
+                                        "platform": "sun",
+                                        "event": "sunset",
+                                        "offset": {
+                                            "__type": "<class 'datetime.timedelta'>",
+                                            "total_seconds": -30.0
+                                        },
+                                        "description": "sunset with offset"
+                                    }
+                                }
+                            }
+                        ],
+                        "action/0": [
+                            {
+                                "path": "action/0",
+                                "timestamp": "2022-04-16T00:59:42.622252+00:00",
+                                "changed_variables": {
+                                    "context": {
+                                        "id": "3650ade2b33aca70885896518f7f3502",
+                                        "parent_id": null,
+                                        "user_id": null
+                                    }
+                                },
+                                "result": {
+                                    "params": {
+                                        "domain": "scene",
+                                        "service": "turn_on",
+                                        "service_data": {},
+                                        "target": {
+                                            "entity_id": [
+                                                "scene.deck_lights_are_on"
+                                            ]
+                                        }
+                                    },
+                                    "running_script": false,
+                                    "limit": 10
+                                }
+                            }
+                        ]
+                    },
+                    "config": {
+                        "id": "1649535064519",
+                        "alias": "Turn on deck lights at night",
+                        "description": "",
+                        "trigger": [
+                            {
+                                "platform": "sun",
+                                "event": "sunset",
+                                "offset": "-30"
+                            }
+                        ],
+                        "condition": [],
+                        "action": [
+                            {
+                                "service": "scene.turn_on",
+                                "target": {
+                                    "entity_id": "scene.deck_lights_are_on"
+                                },
+                                "metadata": {}
+                            }
+                        ],
+                        "mode": "single"
+                    },
+                    "blueprint_inputs": null,
+                    "context": {
+                        "id": "3650ade2b33aca70885896518f7f3502",
+                        "parent_id": null,
+                        "user_id": null
+                    }
+                },
+                "short_dict": {
+                    "last_step": "action/0",
+                    "run_id": "6697be6949de5dfdc6161bbc588d54ca",
+                    "state": "stopped",
+                    "script_execution": "finished",
+                    "timestamp": {
+                        "start": "2022-04-16T00:59:42.621667+00:00",
+                        "finish": "2022-04-16T00:59:47.036918+00:00"
+                    },
+                    "domain": "automation",
+                    "item_id": "1649535064519",
+                    "trigger": "sunset with offset"
+                }
+            }
+        ]
+    }
+}

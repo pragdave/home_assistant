@@ -1,0 +1,474 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "1007",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "show_current": true,
+                            "show_forecast": false,
+                            "type": "weather-forecast",
+                            "entity": "weather.kdfw_daynight",
+                            "secondary_info_attribute": "humidity"
+                        },
+                        {
+                            "square": true,
+                            "columns": 3,
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "square": true,
+                                    "columns": 2,
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "show_name": true,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "lock.doors",
+                                            "name": "Doors"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "show_name": true,
+                                    "show_icon": true,
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "zone.home",
+                                    "show_state": true,
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    },
+                                    "icon": "mdi:home-outline",
+                                    "icon_height": "64px"
+                                },
+                                {
+                                    "square": true,
+                                    "columns": 2,
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "light.light"
+                                        },
+                                        {
+                                            "show_name": false,
+                                            "show_icon": true,
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "more-info"
+                                            },
+                                            "entity": "sensor.hp_color_laserjet_mfp_m477fdw",
+                                            "show_state": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "square": true,
+                            "columns": 3,
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "show_name": true,
+                                    "show_icon": true,
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "light.toggle",
+                                        "service_data": {
+                                            "transition": 6
+                                        },
+                                        "target": {
+                                            "area_id": "living_room"
+                                        }
+                                    },
+                                    "entity": "light.living_room_lights",
+                                    "icon": "mdi:sofa-outline",
+                                    "name": "Living room",
+                                    "hold_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "living-room"
+                                    }
+                                },
+                                {
+                                    "show_name": true,
+                                    "show_icon": true,
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "light.toggle",
+                                        "service_data": {
+                                            "transition": 6
+                                        },
+                                        "target": {
+                                            "area_id": "kitchen"
+                                        }
+                                    },
+                                    "entity": "light.light_over_sink",
+                                    "icon": "mdi:countertop-outline",
+                                    "name": "Kitchen"
+                                },
+                                {
+                                    "show_name": false,
+                                    "show_icon": true,
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "weather"
+                                    },
+                                    "entity": "sensor.temperature",
+                                    "icon": "mdi:weather-partly-cloudy",
+                                    "name": "Weather",
+                                    "show_state": true,
+                                    "hold_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "weather"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "horizontal-stack",
+                            "cards": [
+                                {
+                                    "type": "custom:button-card",
+                                    "aspect_ratio": "3/1",
+                                    "entity": "person.dave",
+                                    "layout": "icon_name",
+                                    "show_entity_picture": true,
+                                    "show_name": true,
+                                    "state": [
+                                        {
+                                            "name": "\ud83c\udfe1 Dave (Home)",
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "#7DDA9F"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "home"
+                                        },
+                                        {
+                                            "name": "\ud83c\udfc3\u200d\u2642\ufe0f Dave (Away)",
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "#93ADCB"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "not_home"
+                                        },
+                                        {
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "gray"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "unknown"
+                                        }
+                                    ],
+                                    "styles": {
+                                        "icon": [
+                                            {
+                                                "width": "90%"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "custom:button-card",
+                                    "aspect_ratio": "3/1",
+                                    "entity": "person.julie",
+                                    "layout": "icon_name",
+                                    "show_entity_picture": true,
+                                    "show_name": true,
+                                    "state": [
+                                        {
+                                            "name": "\ud83c\udfe1 Juliet (Home)",
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "#7DDA9F"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "home"
+                                        },
+                                        {
+                                            "name": "\ud83c\udfc3\u200d\u2642\ufe0f Juliet (Away)",
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "#93ADCB"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "not_home"
+                                        },
+                                        {
+                                            "styles": {
+                                                "name": [
+                                                    {
+                                                        "color": "gray"
+                                                    }
+                                                ]
+                                            },
+                                            "value": "unknown"
+                                        }
+                                    ],
+                                    "styles": {
+                                        "icon": [
+                                            {
+                                                "width": "8=90%"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "Weather",
+                    "path": "weather",
+                    "icon": "mdi:weather-sunny",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "show_current": true,
+                                    "show_forecast": true,
+                                    "type": "weather-forecast",
+                                    "entity": "weather.kdfw_daynight",
+                                    "secondary_info_attribute": "humidity"
+                                },
+                                {
+                                    "type": "entities",
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.temperature",
+                                            "name": "Temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.humidity",
+                                            "name": "Humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.temperature_dewpoint",
+                                            "name": "Dewpoint"
+                                        },
+                                        {
+                                            "entity": "sensor.barometric_pressure",
+                                            "name": "Pressure"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "custom:mini-graph-card",
+                                    "show": {
+                                        "name": false,
+                                        "state": false,
+                                        "icon": false
+                                    },
+                                    "color_thresholds": [
+                                        {
+                                            "value": -20,
+                                            "color": "#d802f9"
+                                        },
+                                        {
+                                            "value": 0,
+                                            "color": "#0206f9"
+                                        },
+                                        {
+                                            "value": 20,
+                                            "color": "#02d4f9"
+                                        },
+                                        {
+                                            "value": 35,
+                                            "color": "#02f950"
+                                        },
+                                        {
+                                            "value": 50,
+                                            "color": "#f9e902"
+                                        },
+                                        {
+                                            "value": 70,
+                                            "color": "#fc4a14"
+                                        },
+                                        {
+                                            "value": 80,
+                                            "color": "#fc2314"
+                                        },
+                                        {
+                                            "value": 90,
+                                            "color": "#7f000c"
+                                        },
+                                        {
+                                            "value": 100,
+                                            "color": "#50007f"
+                                        }
+                                    ],
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.temperature",
+                                            "name": "Temp"
+                                        },
+                                        {
+                                            "entity": "sensor.humidity",
+                                            "name": "Humidity",
+                                            "color": "#4444FF",
+                                            "y_axis": "secondary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "custom:compass-card",
+                                    "indicator_sensors": [
+                                        {
+                                            "sensor": "sensor.wind_direction",
+                                            "indicator": {
+                                                "type": "arrow_inward"
+                                            }
+                                        }
+                                    ],
+                                    "value_sensors": [
+                                        {
+                                            "sensor": "sensor.wind_speed"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "theme": "Backend-selected",
+                    "title": "Living room",
+                    "path": "living-room",
+                    "icon": "mdi:sofa-outline",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "light",
+                            "entity": "light.scene_capable_push_on_off_dimmer"
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.scene_capable_dimmer"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "sensor.multisensor_gen5_air_temperature",
+                                    "name": "Temperature"
+                                },
+                                {
+                                    "entity": "sensor.multisensor_gen5_humidity",
+                                    "name": "Humidity"
+                                },
+                                {
+                                    "entity": "sensor.multisensor_gen5_illuminance",
+                                    "name": "Light level"
+                                },
+                                {
+                                    "entity": "binary_sensor.multisensor_gen5_home_security_motion_detection_location_provided"
+                                },
+                                {
+                                    "entity": "sensor.multisensor_gen5_battery_level"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.z_wave_pir_motion_sensor_any"
+                                },
+                                {
+                                    "entity": "binary_sensor.z_wave_pir_motion_sensor_low_battery_level"
+                                },
+                                {
+                                    "entity": "binary_sensor.z_wave_pir_motion_sensor_home_security_tampering_product_cover_removed"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.z_wave_pir_motion_sensor_any_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.z_wave_pir_motion_sensor_home_security_tampering_product_cover_removed_2"
+                                },
+                                {
+                                    "entity": "sensor.z_wave_pir_motion_sensor_battery_level_2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

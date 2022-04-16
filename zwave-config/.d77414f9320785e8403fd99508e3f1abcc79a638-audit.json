@@ -29,6 +29,21 @@
             "date": 1649826000004,
             "name": "/usr/src/app/store/zwavejs_2022-04-13.log",
             "hash": "15bbd8a044eeac9fcf221a91b74358b5"
+        },
+        {
+            "date": 1649912400004,
+            "name": "/usr/src/app/store/zwavejs_2022-04-14.log",
+            "hash": "6f506310a86b9b332bc7a2bfb7f530df"
+        },
+        {
+            "date": 1649998800004,
+            "name": "/usr/src/app/store/zwavejs_2022-04-15.log",
+            "hash": "9e82d1d595bfff614c3224bb4476232c"
+        },
+        {
+            "date": 1650085200004,
+            "name": "/usr/src/app/store/zwavejs_2022-04-16.log",
+            "hash": "bea280ffed843ab78bb551a1a882037d"
         }
     ]
 }

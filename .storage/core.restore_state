@@ -1,0 +1,1629 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.dave",
+                "state": "home",
+                "attributes": {
+                    "editable": false,
+                    "id": "dave",
+                    "latitude": 33.1660123,
+                    "longitude": -96.9993753,
+                    "gps_accuracy": 13,
+                    "source": "device_tracker.dave_s_phone",
+                    "user_id": "f328c7954b554ee7ac59750d079bb192",
+                    "friendly_name": "Dave"
+                },
+                "last_changed": "2022-04-16T14:36:26.739896+00:00",
+                "last_updated": "2022-04-16T14:58:48.979252+00:00",
+                "context": {
+                    "id": "857b998dd2b8cf6e3f9904836caa5fcb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.julie",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "julie",
+                    "user_id": "76b2d15bebd647868e706448ae1ab16d",
+                    "friendly_name": "Julie"
+                },
+                "last_changed": "2022-04-16T05:44:02.976817+00:00",
+                "last_updated": "2022-04-16T05:44:09.055469+00:00",
+                "context": {
+                    "id": "0d1e12c9ee7ee25996d44364f4bb2955",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.deck_lights_are_off",
+                "state": "2022-04-16T11:55:01.777049+00:00",
+                "attributes": {
+                    "entity_id": [
+                        "light.z_wave_outdoor_smart_plug"
+                    ],
+                    "icon": "mdi:balcony-outline",
+                    "friendly_name": "Deck lights are off"
+                },
+                "last_changed": "2022-04-16T11:55:01.777105+00:00",
+                "last_updated": "2022-04-16T11:55:01.777105+00:00",
+                "context": {
+                    "id": "416de845b1a9d2a03c39427419bfecda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.deck_lights_are_on",
+                "state": "2022-04-16T00:59:42.624120+00:00",
+                "attributes": {
+                    "entity_id": [
+                        "light.z_wave_outdoor_smart_plug"
+                    ],
+                    "icon": "mdi:balcony",
+                    "friendly_name": "Deck lights are on"
+                },
+                "last_changed": "2022-04-16T05:44:03.555204+00:00",
+                "last_updated": "2022-04-16T05:44:03.555204+00:00",
+                "context": {
+                    "id": "f39295fd7f03914296683bc711f21d92",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.lock_doors_at_night",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-04-16T06:00:00.003294+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1649534404435",
+                    "friendly_name": "Lock doors at night"
+                },
+                "last_changed": "2022-04-16T05:44:03.596842+00:00",
+                "last_updated": "2022-04-16T06:00:13.480796+00:00",
+                "context": {
+                    "id": "e1a5c2ca19e7a4cbc5a1a88e0295e8cd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.new_automation",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-04-16T00:59:42.621851+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1649535064519",
+                    "friendly_name": "Turn on deck lights at night"
+                },
+                "last_changed": "2022-04-16T05:44:03.596963+00:00",
+                "last_updated": "2022-04-16T05:44:03.596963+00:00",
+                "context": {
+                    "id": "1cc7d3239f92495fa20644dff491f1c7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.turn_off_decklights",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-04-16T11:55:01.772704+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1649786328094",
+                    "friendly_name": "Turn off decklights at dawn"
+                },
+                "last_changed": "2022-04-16T05:44:03.597067+00:00",
+                "last_updated": "2022-04-16T11:55:02.009830+00:00",
+                "context": {
+                    "id": "416de845b1a9d2a03c39427419bfecda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.backup_to_github",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-04-16T06:02:03.002107+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1649887519760",
+                    "friendly_name": "Backup to github"
+                },
+                "last_changed": "2022-04-16T05:44:03.597163+00:00",
+                "last_updated": "2022-04-16T06:02:04.384324+00:00",
+                "context": {
+                    "id": "a34b58183bd3c084870e9d45ca1462b2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dave_s_phone_battery_level",
+                "state": "82",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-80",
+                    "friendly_name": "Dave's phone Battery Level"
+                },
+                "last_changed": "2022-04-16T14:58:07.961401+00:00",
+                "last_updated": "2022-04-16T14:58:07.961401+00:00",
+                "context": {
+                    "id": "59a32711baa97cc64bcacbe11e892c03",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dave_s_phone_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "icon": "mdi:battery-minus",
+                    "friendly_name": "Dave's phone Battery State"
+                },
+                "last_changed": "2022-04-16T12:21:31.967150+00:00",
+                "last_updated": "2022-04-16T12:21:31.967150+00:00",
+                "context": {
+                    "id": "eb6746023ee9a0fbda469d728fc8dca4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dave_s_phone_charger_type",
+                "state": "none",
+                "attributes": {
+                    "icon": "mdi:battery",
+                    "friendly_name": "Dave's phone Charger Type"
+                },
+                "last_changed": "2022-04-16T12:21:31.967485+00:00",
+                "last_updated": "2022-04-16T12:21:31.967485+00:00",
+                "context": {
+                    "id": "c3e2d0a3f0450717dd1963a7d1307a33",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dave_s_phone_battery_health",
+                "state": "good",
+                "attributes": {
+                    "icon": "mdi:battery-heart-variant",
+                    "friendly_name": "Dave's phone Battery Health"
+                },
+                "last_changed": "2022-04-16T05:44:03.831148+00:00",
+                "last_updated": "2022-04-16T05:44:03.831148+00:00",
+                "context": {
+                    "id": "07b953887ecf836bbfbd20116240684f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dave_s_phone_battery_temperature",
+                "state": "97.3",
+                "attributes": {
+                    "unit_of_measurement": "\u00b0F",
+                    "device_class": "temperature",
+                    "icon": "mdi:battery",
+                    "friendly_name": "Dave's phone Battery Temperature"
+                },
+                "last_changed": "2022-04-16T14:58:07.961663+00:00",
+                "last_updated": "2022-04-16T14:58:07.961663+00:00",
+                "context": {
+                    "id": "b26950eeb2d3d2ea5a1de346b4cefa48",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_battery_level",
+                "state": "84",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-80",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Battery Level"
+                },
+                "last_changed": "2022-04-16T05:44:03.831336+00:00",
+                "last_updated": "2022-04-16T05:44:03.831336+00:00",
+                "context": {
+                    "id": "1bf3515e9eaa83a43b9b394030634723",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_battery_state",
+                "state": "Not Charging",
+                "attributes": {
+                    "Low Power Mode": false,
+                    "icon": "mdi:battery-80",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Battery State"
+                },
+                "last_changed": "2022-04-16T05:44:03.831407+00:00",
+                "last_updated": "2022-04-16T05:44:03.831407+00:00",
+                "context": {
+                    "id": "fd9edfb3cda06e8203730201fc082ba1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_storage",
+                "state": "67.13",
+                "attributes": {
+                    "Available": "171.24 GB",
+                    "Available (Important)": "388.36 GB",
+                    "Available (Opportunistic)": "343.60 GB",
+                    "Total": "511.88 GB",
+                    "unit_of_measurement": "% available",
+                    "icon": "mdi:database",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Storage"
+                },
+                "last_changed": "2022-04-16T05:44:03.831533+00:00",
+                "last_updated": "2022-04-16T05:44:03.831533+00:00",
+                "context": {
+                    "id": "776edd35f3f3a480a6b3ad541ee03e5b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_bssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "icon": "mdi:wifi-off",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone BSSID"
+                },
+                "last_changed": "2022-04-16T05:44:03.831601+00:00",
+                "last_updated": "2022-04-16T05:44:03.831601+00:00",
+                "context": {
+                    "id": "9ecd5ca007daa89acb424038633c66f2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_ssid",
+                "state": "Not Connected",
+                "attributes": {
+                    "icon": "mdi:wifi-off",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone SSID"
+                },
+                "last_changed": "2022-04-16T05:44:03.831666+00:00",
+                "last_updated": "2022-04-16T05:44:03.831666+00:00",
+                "context": {
+                    "id": "adba936898805c80897c1c44386f051f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_sim_1",
+                "state": "Verizon",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "Verizon",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "us",
+                    "Mobile Country Code": "311",
+                    "Mobile Network Code": "480",
+                    "icon": "mdi:sim",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone SIM 1"
+                },
+                "last_changed": "2022-04-16T05:44:03.831733+00:00",
+                "last_updated": "2022-04-16T05:44:03.831733+00:00",
+                "context": {
+                    "id": "4cf7e272457e5b4772147e13434f8297",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_connection_type",
+                "state": "Wi-Fi",
+                "attributes": {
+                    "icon": "mdi:wifi",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Connection Type"
+                },
+                "last_changed": "2022-04-16T05:44:03.831798+00:00",
+                "last_updated": "2022-04-16T05:44:03.831798+00:00",
+                "context": {
+                    "id": "2eb0dcab15550d5ddd0fac85d8ee0bd3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_geocoded_location",
+                "state": "Unknown",
+                "attributes": {
+                    "icon": "mdi:map",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Geocoded Location"
+                },
+                "last_changed": "2022-04-16T05:44:03.831864+00:00",
+                "last_updated": "2022-04-16T05:44:03.831864+00:00",
+                "context": {
+                    "id": "335d2b159965ab6ad4ab5b689be9106b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_sim_2",
+                "state": "N/A",
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000002",
+                    "Carrier Name": "N/A",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A",
+                    "icon": "mdi:sim",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone SIM 2"
+                },
+                "last_changed": "2022-04-16T05:44:03.831929+00:00",
+                "last_updated": "2022-04-16T05:44:03.831929+00:00",
+                "context": {
+                    "id": "cb2a3cd1e103f039653a86432b23c7f9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.juliet_thomass_iphone_last_update_trigger",
+                "state": "Launch",
+                "attributes": {
+                    "icon": "mdi:cellphone-wireless",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone Last Update Trigger"
+                },
+                "last_changed": "2022-04-16T05:44:03.831992+00:00",
+                "last_updated": "2022-04-16T05:44:03.831992+00:00",
+                "context": {
+                    "id": "88680fa1660f4efe90cc9e6d1ce0aed9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.dave_s_phone_is_charging",
+                "state": "off",
+                "attributes": {
+                    "device_class": "plug",
+                    "icon": "mdi:power-plug-off",
+                    "friendly_name": "Dave's phone Is Charging"
+                },
+                "last_changed": "2022-04-16T12:21:31.967372+00:00",
+                "last_updated": "2022-04-16T12:21:31.967372+00:00",
+                "context": {
+                    "id": "f034b29ed846f863fe4202ca20070044",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.dave_s_phone",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 33.1660123,
+                    "longitude": -96.9993753,
+                    "gps_accuracy": 13,
+                    "altitude": 147,
+                    "course": 0,
+                    "speed": 0,
+                    "vertical_accuracy": 0,
+                    "friendly_name": "Dave's phone"
+                },
+                "last_changed": "2022-04-16T14:58:48.978990+00:00",
+                "last_updated": "2022-04-16T14:58:48.978990+00:00",
+                "context": {
+                    "id": "5af9dfea5fbfe1e0950dc77f30e1fa19",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.juliet_thomass_iphone",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "Juliet Thomas\u2019s iPhone"
+                },
+                "last_changed": "2022-04-16T05:44:03.930559+00:00",
+                "last_updated": "2022-04-16T05:44:03.930559+00:00",
+                "context": {
+                    "id": "95b60bd823431d0ebdc31ecab2400484",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.kitchen_temp",
+                "state": "75.4",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "kitchen temp"
+                },
+                "last_changed": "2022-04-16T14:57:38.504117+00:00",
+                "last_updated": "2022-04-16T14:57:38.504117+00:00",
+                "context": {
+                    "id": "dc9ad4b660add1dc4ba31ab4caa598e8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "75.4",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.temperature",
+                "state": "72.3",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "temperature"
+                },
+                "last_changed": "2022-04-16T14:55:46.481222+00:00",
+                "last_updated": "2022-04-16T14:55:46.481222+00:00",
+                "context": {
+                    "id": "8aacf24fbff7c64d0b5e156db0862e8a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "72.3",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.temperature_dewpoint",
+                "state": "69.3",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "temperature: dewpoint"
+                },
+                "last_changed": "2022-04-16T14:58:58.290551+00:00",
+                "last_updated": "2022-04-16T14:58:58.290551+00:00",
+                "context": {
+                    "id": "a4d4a9118d2d812bca98f8f021971e76",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "69.3",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.temperature_windchill",
+                "state": "72.3",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "temperature: windchill"
+                },
+                "last_changed": "2022-04-16T14:55:46.481629+00:00",
+                "last_updated": "2022-04-16T14:55:46.481629+00:00",
+                "context": {
+                    "id": "ef182d57fd21c41ea135844659c61e2d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "72.3",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.kitchen_humidity",
+                "state": "67",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "kitchen humidity"
+                },
+                "last_changed": "2022-04-16T14:51:46.154075+00:00",
+                "last_updated": "2022-04-16T14:51:46.154075+00:00",
+                "context": {
+                    "id": "dd84b5150b2e92b6e393d8b061ca230d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "67",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.humidity",
+                "state": "90",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "humidity"
+                },
+                "last_changed": "2022-04-16T14:58:58.293897+00:00",
+                "last_updated": "2022-04-16T14:58:58.293897+00:00",
+                "context": {
+                    "id": "c6e79688b8346816e421ef6ab0b6168f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "90",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.solar_radiation",
+                "state": "88.15",
+                "attributes": {
+                    "unit_of_measurement": "W/m2",
+                    "friendly_name": "solar radiation"
+                },
+                "last_changed": "2022-04-16T14:58:58.301222+00:00",
+                "last_updated": "2022-04-16T14:58:58.301222+00:00",
+                "context": {
+                    "id": "377f795d2d59503ab23cb3050db99753",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "88.15",
+                "native_unit_of_measurement": "W/m2"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.rain",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "rain"
+                },
+                "last_changed": "2022-04-16T05:44:19.027351+00:00",
+                "last_updated": "2022-04-16T05:44:19.027351+00:00",
+                "context": {
+                    "id": "85e6855a335634897c31ca639203a19f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.rain_daily",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "rain: daily"
+                },
+                "last_changed": "2022-04-16T05:44:19.027489+00:00",
+                "last_updated": "2022-04-16T05:44:19.027489+00:00",
+                "context": {
+                    "id": "ae54dfeadb3c9a881584fe1f4e929be2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.rain_weekly",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "rain: weekly"
+                },
+                "last_changed": "2022-04-16T05:44:19.027608+00:00",
+                "last_updated": "2022-04-16T05:44:19.027608+00:00",
+                "context": {
+                    "id": "d17a67e17735740a0ed704ecf5374940",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.front_door_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Front door: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.544972+00:00",
+                "last_updated": "2022-04-16T05:44:04.544972+00:00",
+                "context": {
+                    "id": "2594b68e844832a3bb9225fc27a7d3e4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.back_door_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Back door: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545225+00:00",
+                "last_updated": "2022-04-16T05:44:04.545225+00:00",
+                "context": {
+                    "id": "503b5617b4f95a66cc404d28c7dd0cfb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_4_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Range Extender 7: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545452+00:00",
+                "last_updated": "2022-04-16T05:44:04.545452+00:00",
+                "context": {
+                    "id": "52164073387614004694044bf9e5b602",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_5_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Dimmer: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545588+00:00",
+                "last_updated": "2022-04-16T05:44:04.545588+00:00",
+                "context": {
+                    "id": "5bb6e14e5b2f80387c8b6cf891eac38c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_7_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Push On/Off Dimmer: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545717+00:00",
+                "last_updated": "2022-04-16T05:44:04.545717+00:00",
+                "context": {
+                    "id": "d07bc3275d9adb6291dcea50554b68fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_8_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "GE Quick-fit Smart In-Wall Paddle Switch: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545797+00:00",
+                "last_updated": "2022-04-16T05:44:04.545797+00:00",
+                "context": {
+                    "id": "cedc3952cf9b92b79c1a593c8ac57025",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_9_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "On/Off Relay Switch: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.545925+00:00",
+                "last_updated": "2022-04-16T05:44:04.545925+00:00",
+                "context": {
+                    "id": "1fdb80608a3afbcf994364dbcf2c6e84",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_10_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Dimmer: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546004+00:00",
+                "last_updated": "2022-04-16T05:44:04.546004+00:00",
+                "context": {
+                    "id": "275b06010f85ba567596000fdb9afe69",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_11_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Dimmer: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546102+00:00",
+                "last_updated": "2022-04-16T05:44:04.546102+00:00",
+                "context": {
+                    "id": "8f8e8af876d6d3141ecf77d70bc622c8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_12_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Wall Plug Switch: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546178+00:00",
+                "last_updated": "2022-04-16T05:44:04.546178+00:00",
+                "context": {
+                    "id": "72cc8a6e0e676daef9acc1e4ddb95304",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_14_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Wall Plug Switch: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546275+00:00",
+                "last_updated": "2022-04-16T05:44:04.546275+00:00",
+                "context": {
+                    "id": "e0cbc293e633aae84cae7eae1bff4327",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_15_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "MultiSensor Gen5: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546371+00:00",
+                "last_updated": "2022-04-16T05:44:04.546371+00:00",
+                "context": {
+                    "id": "e570a664eb9c2a3334888a80062bd3c6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_16_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Z-Wave PIR Motion Sensor: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546464+00:00",
+                "last_updated": "2022-04-16T05:44:04.546464+00:00",
+                "context": {
+                    "id": "b53c3143fc42137b2d7fd653bff93b8a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_17_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Z-Wave PIR Motion Sensor: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546557+00:00",
+                "last_updated": "2022-04-16T05:44:04.546557+00:00",
+                "context": {
+                    "id": "6b46c9e93d09f89fc6149baf0ca288ae",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_18_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Z-Wave Outdoor Smart Plug: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546649+00:00",
+                "last_updated": "2022-04-16T05:44:04.546649+00:00",
+                "context": {
+                    "id": "ee91626e4e1032256a05ce8e2fe21eaf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_19_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Dimmer: Ping"
+                },
+                "last_changed": "2022-04-16T05:44:04.546723+00:00",
+                "last_updated": "2022-04-16T05:44:04.546723+00:00",
+                "context": {
+                    "id": "8f713124248b9f6db1ab92fe8aacbcb1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.rain_monthly",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "rain: monthly"
+                },
+                "last_changed": "2022-04-16T05:44:19.027720+00:00",
+                "last_updated": "2022-04-16T05:44:19.027720+00:00",
+                "context": {
+                    "id": "28e4933d8733daa2365c3c1c2e530fa1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.wind_speed",
+                "state": "2.2",
+                "attributes": {
+                    "unit_of_measurement": "mph",
+                    "friendly_name": "wind: speed"
+                },
+                "last_changed": "2022-04-16T14:58:58.294381+00:00",
+                "last_updated": "2022-04-16T14:58:58.294381+00:00",
+                "context": {
+                    "id": "03c8bada1aa191862530ef91de2d7ce6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "2.2",
+                "native_unit_of_measurement": "mph"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.wind_gust",
+                "state": "2.2",
+                "attributes": {
+                    "unit_of_measurement": "mph",
+                    "friendly_name": "wind: gust"
+                },
+                "last_changed": "2022-04-16T14:58:58.297522+00:00",
+                "last_updated": "2022-04-16T14:58:58.297522+00:00",
+                "context": {
+                    "id": "5d8ca975f15d57f665f4b95a6cb1a498",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "2.2",
+                "native_unit_of_measurement": "mph"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.wind_direction",
+                "state": "221",
+                "attributes": {
+                    "unit_of_measurement": "deg",
+                    "friendly_name": "wind: direction"
+                },
+                "last_changed": "2022-04-16T14:51:30.180837+00:00",
+                "last_updated": "2022-04-16T14:51:30.180837+00:00",
+                "context": {
+                    "id": "6c512389bcaa68e3d0c35f633a9290d1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "221",
+                "native_unit_of_measurement": "deg"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.barometric_pressure",
+                "state": "29.581",
+                "attributes": {
+                    "unit_of_measurement": "inHg",
+                    "friendly_name": "barometric pressure"
+                },
+                "last_changed": "2022-04-16T14:57:38.507017+00:00",
+                "last_updated": "2022-04-16T14:57:38.507017+00:00",
+                "context": {
+                    "id": "651a7214274a3c8d11a61729c4e3eb2f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "29.581",
+                "native_unit_of_measurement": "inHg"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.barometric_pressure_abs",
+                "state": "29.309",
+                "attributes": {
+                    "unit_of_measurement": "inHg",
+                    "friendly_name": "barometric pressure: abs"
+                },
+                "last_changed": "2022-04-16T14:57:38.506282+00:00",
+                "last_updated": "2022-04-16T14:57:38.506282+00:00",
+                "context": {
+                    "id": "6836c2fe588558b4f4d5a5fa73d975c9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "29.309",
+                "native_unit_of_measurement": "inHg"
+            },
+            "last_seen": "2022-04-16T14:59:09.095996+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_6_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Scene Capable Dimmer: Ping"
+                },
+                "last_changed": "2022-04-15T00:49:26.014445+00:00",
+                "last_updated": "2022-04-15T00:49:26.014445+00:00",
+                "context": {
+                    "id": "4daa53e73e372b79585008290f39764d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-15T00:54:11.603030+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.deck_lights_off",
+                "state": "unknown",
+                "attributes": {
+                    "entity_id": [
+                        "light.z_wave_outdoor_smart_plug"
+                    ],
+                    "icon": "mdi:balcony-outline",
+                    "friendly_name": "Deck lights off"
+                },
+                "last_changed": "2022-04-15T00:39:11.630352+00:00",
+                "last_updated": "2022-04-15T00:39:11.630352+00:00",
+                "context": {
+                    "id": "ac4b35f4c42b3c46e39186684e267ec4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-15T00:41:16.945317+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.deck_lights_on_2",
+                "state": "unknown",
+                "attributes": {
+                    "entity_id": [
+                        "light.z_wave_outdoor_smart_plug"
+                    ],
+                    "icon": "mdi:balcony",
+                    "friendly_name": "Deck lights on"
+                },
+                "last_changed": "2022-04-15T00:39:11.630422+00:00",
+                "last_updated": "2022-04-15T00:39:11.630422+00:00",
+                "context": {
+                    "id": "10cefbba85e712ff289185958810f1cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-15T00:41:16.945317+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "scene.deck_lights_on",
+                "state": "2022-04-15T00:36:42.754513+00:00",
+                "attributes": {
+                    "entity_id": [
+                        "light.z_wave_outdoor_smart_plug"
+                    ],
+                    "id": "1649982862958",
+                    "icon": "mdi:balcony",
+                    "friendly_name": "Deck lights on"
+                },
+                "last_changed": "2022-04-15T00:36:52.386484+00:00",
+                "last_updated": "2022-04-15T00:36:52.386484+00:00",
+                "context": {
+                    "id": "9b3b144f5b3ef2560051e82499bd2327",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-15T00:39:00.692822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.node_13_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Z-Wave Outdoor Smart Plug: Ping"
+                },
+                "last_changed": "2022-04-14T22:59:39.026596+00:00",
+                "last_updated": "2022-04-14T22:59:39.026596+00:00",
+                "context": {
+                    "id": "10dc3a0da24bdb1bc7f8d8067d4ae91f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-14T23:00:49.667487+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.outside_temp",
+                "state": "71.6",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "outside temp"
+                },
+                "last_changed": "2022-04-12T17:46:15.538979+00:00",
+                "last_updated": "2022-04-12T17:46:15.538979+00:00",
+                "context": {
+                    "id": "22313f248a311b7b08de641f6e9c00f0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "71.6",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.dewpoint",
+                "state": "67.3",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "dewpoint"
+                },
+                "last_changed": "2022-04-12T17:46:15.539426+00:00",
+                "last_updated": "2022-04-12T17:46:15.539426+00:00",
+                "context": {
+                    "id": "7919e26057096bf883f9ae1e977718be",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "67.3",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.outside_temp_2",
+                "state": "71.6",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "outside temp"
+                },
+                "last_changed": "2022-04-12T17:46:15.539086+00:00",
+                "last_updated": "2022-04-12T17:46:15.539086+00:00",
+                "context": {
+                    "id": "37afee07eb33a3035bf7dc4e956bbdce",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "71.6",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.outside_humidity",
+                "state": "86",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "outside humidity"
+                },
+                "last_changed": "2022-04-12T17:46:15.539552+00:00",
+                "last_updated": "2022-04-12T17:46:15.539552+00:00",
+                "context": {
+                    "id": "4ec0fb9fe773af1632c9ef7cf5b5d985",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "86",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.daily_rain",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "daily rain"
+                },
+                "last_changed": "2022-04-12T17:40:07.564604+00:00",
+                "last_updated": "2022-04-12T17:40:07.564604+00:00",
+                "context": {
+                    "id": "3d8d661ae86e793bcaceb6f689ff04e6",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.weekly_rain",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "weekly rain"
+                },
+                "last_changed": "2022-04-12T17:40:07.566340+00:00",
+                "last_updated": "2022-04-12T17:40:07.566340+00:00",
+                "context": {
+                    "id": "2be89992d1aafdbdcd4c1531890379dc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.monthly_rain",
+                "state": "0.000",
+                "attributes": {
+                    "unit_of_measurement": "in",
+                    "friendly_name": "monthly rain"
+                },
+                "last_changed": "2022-04-12T17:40:07.567539+00:00",
+                "last_updated": "2022-04-12T17:40:07.567539+00:00",
+                "context": {
+                    "id": "c974632e24c1d268431477cf8ad798f8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "0.000",
+                "native_unit_of_measurement": "in"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.abs_barometric_pressure",
+                "state": "29.147",
+                "attributes": {
+                    "unit_of_measurement": "inHg",
+                    "friendly_name": "abs barometric pressure"
+                },
+                "last_changed": "2022-04-12T17:45:43.514896+00:00",
+                "last_updated": "2022-04-12T17:45:43.514896+00:00",
+                "context": {
+                    "id": "7cb3c2c1fea9a20a605f10c6be750c62",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "29.147",
+                "native_unit_of_measurement": "inHg"
+            },
+            "last_seen": "2022-04-12T17:46:23.075825+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.kitchen_hum",
+                "state": "50",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "kitchen hum"
+                },
+                "last_changed": "2022-04-11T00:15:38.167216+00:00",
+                "last_updated": "2022-04-11T00:15:38.167216+00:00",
+                "context": {
+                    "id": "80d3068fe1b24bfeb4497786e3c5266d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "50",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-11T00:44:52.176284+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.outside_hum",
+                "state": "67",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "outside hum"
+                },
+                "last_changed": "2022-04-11T00:36:26.083043+00:00",
+                "last_updated": "2022-04-11T00:36:26.083043+00:00",
+                "context": {
+                    "id": "09ed83b5f446a2944d9755ba9ec7b54c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "67",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-11T00:44:52.176284+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.real_kitchen_temp",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "real kitchen temp"
+                },
+                "last_changed": "2022-04-10T21:38:12.507327+00:00",
+                "last_updated": "2022-04-10T21:38:12.507327+00:00",
+                "context": {
+                    "id": "a5674d74d08e313e05e900e435302b96",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-10T21:49:53.926761+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.real_outside_temp",
+                "state": "75.4",
+                "attributes": {
+                    "unit_of_measurement": "F",
+                    "friendly_name": "real outside temp"
+                },
+                "last_changed": "2022-04-10T21:48:42.275220+00:00",
+                "last_updated": "2022-04-10T21:48:42.275220+00:00",
+                "context": {
+                    "id": "ebf8b2591bda8064c586f8db73de7666",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "75.4",
+                "native_unit_of_measurement": "F"
+            },
+            "last_seen": "2022-04-10T21:49:53.926761+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.real_kitchen_hum",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "real kitchen hum"
+                },
+                "last_changed": "2022-04-10T21:38:12.516735+00:00",
+                "last_updated": "2022-04-10T21:38:12.516735+00:00",
+                "context": {
+                    "id": "48d54910a7e5639a94478e6900c9ab0f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-10T21:49:53.926761+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.real_outside_hum",
+                "state": "62",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "real outside hum"
+                },
+                "last_changed": "2022-04-10T21:49:14.577392+00:00",
+                "last_updated": "2022-04-10T21:49:14.577392+00:00",
+                "context": {
+                    "id": "5c35ee5bfb950600b20e534daefa8ff0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "62",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-04-10T21:49:53.926761+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "button.wall_plug_switch_ping",
+                "state": "unknown",
+                "attributes": {
+                    "friendly_name": "Wall Plug Switch: Ping"
+                },
+                "last_changed": "2022-04-09T16:33:42.858030+00:00",
+                "last_updated": "2022-04-09T16:33:42.858030+00:00",
+                "context": {
+                    "id": "41da7c62dc25a6f877d73d6376302cb7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-04-09T16:40:30.957319+00:00"
+        }
+    ]
+}

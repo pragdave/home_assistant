@@ -1,0 +1,323 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "bdd91ac9b2d0ef6f0eb262199a98fd75",
+                "version": 1,
+                "domain": "sun",
+                "title": "Sun",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ed31b84a32287b12635f9c0ed56c5954",
+                "version": 1,
+                "domain": "radio_browser",
+                "title": "Radio Browser",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7b5db16315133c222691686b72cd9765",
+                "version": 1,
+                "domain": "zwave_js",
+                "title": "Z-Wave JS",
+                "data": {
+                    "url": "ws://localhost:3000",
+                    "usb_path": null,
+                    "s0_legacy_key": null,
+                    "s2_access_control_key": null,
+                    "s2_authenticated_key": null,
+                    "s2_unauthenticated_key": null,
+                    "use_addon": false,
+                    "integration_created_addon": false,
+                    "data_collection_opted_in": false
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "3361971747",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "7782a5dc6df868c0c6f7f4c76fec73d5",
+                "version": 1,
+                "domain": "switch_as_x",
+                "title": "Light over sink",
+                "data": {},
+                "options": {
+                    "entity_id": "switch.on_off_relay_switch",
+                    "target_domain": "light"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "34f1f4071cd946220d027aeed25292d1",
+                "version": 1,
+                "domain": "switch_as_x",
+                "title": "Light",
+                "data": {},
+                "options": {
+                    "entity_id": "switch.ge_quick_fit_smart_in_wall_paddle_switch",
+                    "target_domain": "light"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1db549c972de9af252c42b781f944db8",
+                "version": 1,
+                "domain": "switch_as_x",
+                "title": "Girl cave light",
+                "data": {},
+                "options": {
+                    "entity_id": "switch.ge_quick_fit_smart_in_wall_paddle_switch",
+                    "target_domain": "light"
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "51d970cc88e90e325e0c585287ac292a",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "79e391705e4fb3ff7a1cc738d922fdbd",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Dave's phone",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.3.0-full (2164)",
+                    "device_name": "Dave's phone",
+                    "manufacturer": "samsung",
+                    "model": "SM-G998U1",
+                    "os_name": "Android",
+                    "os_version": "31",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_websocket_channel": true,
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "esM3LrkLTo-H8Jr5gaxJde:APA91bFGSh_gjh-2O1DGRAlyud4Z_BxrY4DwDxt_hvEm1yRAVqgIC3ifdVtF2HVqXdeSbINjaCfy4q0rJEZsFkBj5Zp69hIl2m7aX9GbiPcCAlVvek9LVvEOuqPAkLQqyksIURN90y6I"
+                    },
+                    "device_id": "179c63dc4ea48113",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABiUfQV4ESerPug_Xz1iPLDoAHasr2Pw9CENfO3EsvssuDHGfIU5qsSl6u97OPV57rgBsl5FpgatuaHmlpMqcaKcDmyvfh1fvZyRflNXloDQe7sK8OzoSAoiW4NbAXumxLosfvFFMDrlfLbYj27pSPyidpgNhtToas8dd3H5gXKvkgPnWA=",
+                    "webhook_id": "41f64cba30cf84841098e13850f78e93b1a6fcadd39d0d37701100f5f37a0fd8",
+                    "user_id": "f328c7954b554ee7ac59750d079bb192"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-179c63dc4ea48113",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1c278d53dbbad74842ea4e4428810064",
+                "version": 1,
+                "domain": "ipp",
+                "title": "HP Color LaserJet MFP M477fdw (16FB13)",
+                "data": {
+                    "host": "192.168.86.153",
+                    "port": 631,
+                    "ssl": false,
+                    "verify_ssl": false,
+                    "base_path": "/ipp/print",
+                    "name": "HP Color LaserJet MFP M477fdw (16FB13)",
+                    "uuid": "58585858-5858-5858-5858-a08cfd16fb13"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "58585858-5858-5858-5858-a08cfd16fb13",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "64745b74d1f242aa6ba0f0fc431d24c7",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "ignore_cec": [],
+                    "known_hosts": [],
+                    "uuid": [],
+                    "user_id": "27a268faa8664337a1d5ebc7e205e353"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "cast",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d15e8e0285de7b3b1fb0168fca564268",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "localhost",
+                "data": {
+                    "broker": "localhost",
+                    "port": 1883,
+                    "discovery": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e3c8e169e712eeb87a3d3bee6e5311e3",
+                "version": 1,
+                "domain": "nws",
+                "title": "kdfw",
+                "data": {
+                    "api_key": "dave@thomases.com",
+                    "latitude": 33.18317756040795,
+                    "longitude": -96.94825172424318,
+                    "station": "kdfw"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "33.18317756040795_-96.94825172424318",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "0f2848cefc7271629ab25a9fddfebbe8",
+                "version": 1,
+                "domain": "group",
+                "title": "Living room lights",
+                "data": {},
+                "options": {
+                    "group_type": "light",
+                    "name": "Living room lights",
+                    "entities": [
+                        "light.scene_capable_dimmer",
+                        "light.scene_capable_push_on_off_dimmer"
+                    ],
+                    "hide_members": false
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d004d70e64ea46ddf5b9f3397729289c",
+                "version": 1,
+                "domain": "group",
+                "title": "Kitchen lights",
+                "data": {},
+                "options": {
+                    "group_type": "light",
+                    "name": "Kitchen lights",
+                    "entities": [
+                        "light.scene_capable_dimmer_4",
+                        "light.light_over_sink",
+                        "light.scene_capable_dimmer_3"
+                    ],
+                    "hide_members": false
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "1458bb23eea84d351af8796e371a3443",
+                "version": 1,
+                "domain": "group",
+                "title": "Doors",
+                "data": {},
+                "options": {
+                    "group_type": "lock",
+                    "name": "Doors",
+                    "entities": [
+                        "lock.back_door",
+                        "lock.front_door"
+                    ],
+                    "hide_members": false
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "f0b68c704deb6060805811f2750d0549",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Juliet Thomas\u2019s iPhone",
+                "data": {
+                    "device_id": "275A3E8F-43CB-4498-B94F-3ED4A17952EC",
+                    "os_name": "iOS",
+                    "app_id": "io.robbie.HomeAssistant",
+                    "manufacturer": "Apple",
+                    "app_version": "2022.3 (2022.358)",
+                    "device_name": "Juliet Thomas\u2019s iPhone",
+                    "app_name": "Home Assistant",
+                    "os_version": "15.2.1",
+                    "supports_encryption": true,
+                    "model": "iPhone11,6",
+                    "app_data": {
+                        "push_token": "fB4q6HU-6EVAjJZYDX96j6:APA91bHf9k1fvYnI4OhtYnMtO4tIPSWSMoVATxOTnHiIJrgu8JYZW8I6N7NXPhtzeWQdTNZylRHCPmVGLmoHHuX5POV4UNrOJp4hFdsA-0UWcg0St5EAF_6QAd3GpiINV5lQKOKasH6i",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABiWMVyKEKN-ACHTPo7WM0s5BT771zpDy6OK7kzY-1i6jBeQh5i-hcy2LoXthv1SuanCdNmlGfG6G-Wp676pDXt6RjmBd5L3_ePkb5ixxW6mTXyY0mAxOa-2iiRH1QH5R1K18XhUNtHjxiKuCnBKFMFotjkZ2zSwwuyrmwXlMizew07mXg=",
+                    "webhook_id": "c63c764ef28a8f7ba41f6d50e7dca9476cd3229d8ca1dfb4fa030545fe41a452",
+                    "secret": "06c3d0bb9c20d6537990141d604f08f2a3e02018fde4b9cfa71d27c419d03401",
+                    "user_id": "76b2d15bebd647868e706448ae1ab16d"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.robbie.HomeAssistant-275A3E8F-43CB-4498-B94F-3ED4A17952EC",
+                "disabled_by": null
+            }
+        ]
+    }
+}

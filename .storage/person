@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Dave",
+                "user_id": "f328c7954b554ee7ac59750d079bb192",
+                "device_trackers": [
+                    "device_tracker.dave_s_phone"
+                ],
+                "id": "dave"
+            },
+            {
+                "name": "Julie",
+                "device_trackers": [
+                    "device_tracker.juliet_thomass_iphone"
+                ],
+                "user_id": "76b2d15bebd647868e706448ae1ab16d",
+                "picture": null,
+                "id": "julie"
+            }
+        ]
+    }
+}

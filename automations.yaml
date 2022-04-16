@@ -20,15 +20,14 @@
   description: ''
   trigger:
   - platform: sun
-    event: sunrise
+    event: sunset
     offset: '-30'
   condition: []
   action:
-  - type: turn_on
-    device_id: 4aa2848e791e1f22f23e599c2d5cbc9e
-    entity_id: light.z_wave_outdoor_smart_plug
-    domain: light
-    brightness_pct: 100
+  - service: scene.turn_on
+    target:
+      entity_id: scene.deck_lights_are_on
+    metadata: {}
   mode: single
 - id: '1649786328094'
   alias: Turn off decklights at dawn
@@ -39,8 +38,19 @@
     offset: 0
   condition: []
   action:
-  - type: turn_off
-    device_id: 4aa2848e791e1f22f23e599c2d5cbc9e
-    entity_id: light.z_wave_outdoor_smart_plug
-    domain: light
+  - service: scene.turn_on
+    target:
+      entity_id: scene.deck_lights_are_off
+    metadata: {}
+  mode: single
+- id: '1649887519760'
+  alias: Backup to github
+  description: ''
+  trigger:
+  - platform: time
+    at: 01:02:03
+  condition: []
+  action:
+  - service: shell_command.push_to_github
+    data: {}
   mode: single

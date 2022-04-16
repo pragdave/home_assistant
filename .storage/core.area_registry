@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Living Room",
+                "id": "living_room",
+                "picture": null
+            },
+            {
+                "name": "Kitchen",
+                "id": "kitchen",
+                "picture": null
+            },
+            {
+                "name": "Bedroom",
+                "id": "bedroom",
+                "picture": null
+            },
+            {
+                "name": "Outside",
+                "id": "outside",
+                "picture": null
+            },
+            {
+                "name": "Girl cave",
+                "id": "girl_cave",
+                "picture": null
+            },
+            {
+                "name": "Dave's office",
+                "id": "dave_s_office",
+                "picture": null
+            }
+        ]
+    }
+}

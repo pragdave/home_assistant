@@ -1,0 +1,797 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-1"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-1-134:257:90"
+                    ]
+                ],
+                "manufacturer": "AEON Labs",
+                "model": "ZW090",
+                "name": "Z\u2010Stick Gen5 USB Controller",
+                "sw_version": "1.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "6767aaacd22652927f6187d853571314",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-2"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-2-59:25409:20548"
+                    ]
+                ],
+                "manufacturer": "Allegion",
+                "model": "BE469",
+                "name": "Front door",
+                "sw_version": "113.22",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "d4a330a3abf30e29fe06ea6662a36fe6",
+                "via_device_id": null,
+                "area_id": "outside",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-3"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-3-59:25409:20548"
+                    ]
+                ],
+                "manufacturer": "Allegion",
+                "model": "BE469",
+                "name": "Back door",
+                "sw_version": "113.22",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "614e686fafd1050fc32ad45c20e2abfa",
+                "via_device_id": null,
+                "area_id": "outside",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-4"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-4-881:260:189"
+                    ]
+                ],
+                "manufacturer": "Aeotec Ltd.",
+                "model": "ZW189-C15",
+                "name": "Range Extender 7",
+                "sw_version": "1.3",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "1cd6cf5ed7f4d78b9c096717e1b2275e",
+                "via_device_id": null,
+                "area_id": "girl_cave",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-5-29:6915:820"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-5"
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZMX1",
+                "name": "Scene Capable Dimmer",
+                "sw_version": "0.7",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "72273e74e88cff3bae318f825ab95164",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "Lights over fireplace",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-7-29:1538:820"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-7"
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "VRMX1",
+                "name": "Scene Capable Push On/Off Dimmer",
+                "sw_version": "0.7",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b5e12707df9e6ce8292324e3beb18575",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "Lights over glass table",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "1db549c972de9af252c42b781f944db8",
+                    "7b5db16315133c222691686b72cd9765",
+                    "34f1f4071cd946220d027aeed25292d1"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-8"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-8-99:18770:12597"
+                    ]
+                ],
+                "manufacturer": "GE/Jasco",
+                "model": "46201 / ZW4008",
+                "name": "GE Quick-fit Smart In-Wall Paddle Switch",
+                "sw_version": "5.53",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "5a07b829584ae3c33408a3a401b28419",
+                "via_device_id": null,
+                "area_id": "girl_cave",
+                "name_by_user": "Girl cave light",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765",
+                    "7782a5dc6df868c0c6f7f4c76fec73d5"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-9-99:18770:12338"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-9"
+                    ]
+                ],
+                "manufacturer": "GE/Jasco",
+                "model": "12722 / ZW4005",
+                "name": "On/Off Relay Switch",
+                "sw_version": "3.29",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e3a30aaa1b4ab060b4c5930583b50061",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": "Light over sink",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-10"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-10-29:6915:820"
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZMX1",
+                "name": "Scene Capable Dimmer",
+                "sw_version": "0.7",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "0e00a0a619b433c67a62b2a6bd132ae3",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": "Two lights over island",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-11-29:6915:820"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-11"
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZMX1",
+                "name": "Scene Capable Dimmer",
+                "sw_version": "0.7",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "4e779541bb4bebb72833e1a1e3f2045b",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": "Light over cooktop",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-12"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-12-600:256:4135"
+                    ]
+                ],
+                "manufacturer": "Shenzhen Neo Electronics Co., Ltd.",
+                "model": "NAS-WR01ZE",
+                "name": "Wall Plug Switch",
+                "sw_version": "2.23",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e50ccf5fdaa8467591138d9c150e11fd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-14-600:256:4135"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-14"
+                    ]
+                ],
+                "manufacturer": "Shenzhen Neo Electronics Co., Ltd.",
+                "model": "NAS-WR01ZE",
+                "name": "Wall Plug Switch",
+                "sw_version": "2.23",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "8cc7575c3b99fe6386557bec0f0f7b66",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "51d970cc88e90e325e0c585287ac292a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.24.4",
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "90cce55595cbadb41d639de714210a65",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "homeassistant://hacs"
+            },
+            {
+                "config_entries": [
+                    "79e391705e4fb3ff7a1cc738d922fdbd"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "179c63dc4ea48113"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-G998U1",
+                "name": "Dave's phone",
+                "sw_version": "31",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "89c107c6f3c7ad119ede43e27594dbf0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "1c278d53dbbad74842ea4e4428810064"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "58585858-5858-5858-5858-a08cfd16fb13"
+                    ]
+                ],
+                "manufacturer": "Hewlett-Packard",
+                "model": "HP Color LaserJet MFP M477fdw",
+                "name": "HP Color LaserJet MFP M477fdw",
+                "sw_version": "20201022",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "b051d9a8619163a49a3de740d579e9c3",
+                "via_device_id": null,
+                "area_id": "",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "64745b74d1f242aa6ba0f0fc431d24c7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "3e8e498cc891bd900c4a5121d50c8db0"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Kitchen display",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "3e250a5896fca3997ad9e65ea92171c2",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "64745b74d1f242aa6ba0f0fc431d24c7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "81e4765462db6b7fb87580bc533745eb"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast Ultra",
+                "name": "Living Room TV",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "02080df212868f3beebc306cd96ee1d1",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "64745b74d1f242aa6ba0f0fc431d24c7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "766aa5768f0e5ea3f706fa55226d912b"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Kitchen TV",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "42a4d7d43a285a5b7587992a62c41e2e",
+                "via_device_id": null,
+                "area_id": "kitchen",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "64745b74d1f242aa6ba0f0fc431d24c7"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "b6e0a5693ab8b4ffd81c9c9b57f02a45"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Nest Wifi point",
+                "name": "Bedroom Wifi",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": null,
+                "id": "e78bfc643cba47842d7817278a41e3ca",
+                "via_device_id": null,
+                "area_id": "bedroom",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "e3c8e169e712eeb87a3d3bee6e5311e3"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "nws",
+                        "33.18317756040795_-96.94825172424318"
+                    ]
+                ],
+                "manufacturer": "National Weather Service",
+                "model": null,
+                "name": "NWS: 33.18317756040795, -96.94825172424318",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "0efd1035ce0847286f0476998db0878d",
+                "via_device_id": null,
+                "area_id": "outside",
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-15-134:258:74"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-15"
+                    ]
+                ],
+                "manufacturer": "AEON Labs",
+                "model": "ZW074",
+                "name": "MultiSensor Gen5",
+                "sw_version": "1.2",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "a06aaef060a6b89d7bdb0acfc5dfbbba",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "Living room sensor",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-16"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-16-330:1:1"
+                    ]
+                ],
+                "manufacturer": "Ecolink",
+                "model": "PIRZWAVE1",
+                "name": "Z-Wave PIR Motion Sensor",
+                "sw_version": "2.0",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "c6c0d87c78ffbb94825b0364b054589f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": "PIR 1",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-17-330:1:1"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-17"
+                    ]
+                ],
+                "manufacturer": "Ecolink",
+                "model": "PIRZWAVE1",
+                "name": "Z-Wave PIR Motion Sensor",
+                "sw_version": "2.0",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9cff6020f3d62248cda536d2367abd82",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": "PIR 2",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-18-786:65287:65283"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-18"
+                    ]
+                ],
+                "manufacturer": "Minoston",
+                "model": "MP22Z",
+                "name": "Z-Wave Outdoor Smart Plug",
+                "sw_version": "1.0",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "9c255445af7458ce421e389e7d8848b2",
+                "via_device_id": null,
+                "area_id": "outside",
+                "name_by_user": "Deck lights",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-19"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-19-29:6915:820"
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZMX1",
+                "name": "Scene Capable Dimmer",
+                "sw_version": "0.7",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "15672573e47facd3fb713ba9c0315ec0",
+                "via_device_id": null,
+                "area_id": "living_room",
+                "name_by_user": "Lights on back wall",
+                "disabled_by": null,
+                "configuration_url": null
+            },
+            {
+                "config_entries": [
+                    "f0b68c704deb6060805811f2750d0549"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "275A3E8F-43CB-4498-B94F-3ED4A17952EC"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone11,6",
+                "name": "Juliet Thomas\u2019s iPhone",
+                "sw_version": "15.2.1",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "508f45aca0a289792a07b2dc80439e82",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "4148353023-1-134:257:90"
+                    ],
+                    [
+                        "zwave_js",
+                        "4148353023-1"
+                    ]
+                ],
+                "id": "1b5ab7dfb77d48047a850dcb7b1b241e",
+                "orphaned_timestamp": 1649523838.3227792
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "4148353023-11"
+                    ]
+                ],
+                "id": "e4921e606aae578359b2bf47499e416e",
+                "orphaned_timestamp": 1649523838.3227792
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "4148353023-12-600:256:4135"
+                    ],
+                    [
+                        "zwave_js",
+                        "4148353023-12"
+                    ]
+                ],
+                "id": "2b4a1fdf47fd5a257f010c27c1490738",
+                "orphaned_timestamp": 1649523838.3227792
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "id": "bf9e4f7341e78a87fd4fcc9160175fd0",
+                "orphaned_timestamp": 1649784359.7326388
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-13-786:65287:65283"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-13"
+                    ]
+                ],
+                "id": "4aa2848e791e1f22f23e599c2d5cbc9e",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "7b5db16315133c222691686b72cd9765"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave_js",
+                        "3361971747-6-29:6915:820"
+                    ],
+                    [
+                        "zwave_js",
+                        "3361971747-6"
+                    ]
+                ],
+                "id": "4acdead5eb2f54490509a2c0e1625b83",
+                "orphaned_timestamp": null
+            }
+        ]
+    }
+}

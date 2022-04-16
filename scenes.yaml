@@ -1,0 +1,25 @@
+- name: Deck lights are off
+  entities:
+    light.z_wave_outdoor_smart_plug:
+      supported_color_modes:
+      - brightness
+      color_mode: brightness
+      brightness: 0
+      friendly_name: Deck lights
+      supported_features: 32
+      state: 'off'
+      transition: 300
+  icon: mdi:balcony-outline
+    
+- name: Deck lights are on
+  entities:
+    light.z_wave_outdoor_smart_plug:
+      supported_color_modes:
+      - brightness
+      color_mode: brightness
+      brightness: 255
+      friendly_name: Deck lights
+      supported_features: 32
+      state: 'on'
+      transition: 300
+  icon: mdi:balcony
