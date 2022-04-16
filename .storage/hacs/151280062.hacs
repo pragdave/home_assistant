@@ -13,7 +13,7 @@
         "description": "Minimalistic graph card for Home Assistant Lovelace UI",
         "domain": "",
         "domains": [],
-        "downloads": 32423,
+        "downloads": 32466,
         "etag_repository": "W/\"0225b52044ab0a216058d1ce7e3fdd8f5b81b13cdcbc76ba41e6389073972648\"",
         "file_name": "mini-graph-card-bundle.js",
         "filename": null,

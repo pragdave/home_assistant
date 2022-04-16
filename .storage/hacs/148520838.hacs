@@ -13,7 +13,7 @@
         "description": "Minimalistic media card for Home Assistant Lovelace UI",
         "domain": "",
         "domains": [],
-        "downloads": 8776,
+        "downloads": 8810,
         "etag_repository": "W/\"08951470bde8af480599e309d30a1bdeefb3f98868319db1c25c5c91c902c155\"",
         "file_name": "mini-media-player-bundle.js",
         "filename": "",

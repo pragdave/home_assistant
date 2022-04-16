@@ -1,0 +1,51 @@
+type: vertical-stack
+cards:
+- type: custom:button-card
+  aspect_ratio: 3/1
+  entity: person.dave
+  layout: icon_name
+  show_entity_picture: true
+  show_name: true
+  state:
+  - name: "\U0001F3E1 Dave (Home)"
+    styles:
+      name:
+      - color: "#7DDA9F"
+    value: home
+  - name: "\U0001F3C3‍♂️ Dave (Away)"
+    styles:
+      name:
+      - color: "#93ADCB"
+    value: not_home
+  - styles:
+      name:
+      - color: gray
+    value: unknown
+  styles:
+    icon:
+    - width: 90%
+- type: custom:button-card
+  aspect_ratio: 3/1
+  entity: person.julie
+  layout: icon_name
+  show_entity_picture: true
+  show_name: true
+  state:
+  - name: "\U0001F3E1 Juliet (Home)"
+    styles:
+      name:
+      - color: "#7DDA9F"
+    value: home
+  - name: "\U0001F3C3‍♂️ Juliet (Away)"
+    styles:
+      name:
+      - color: "#93ADCB"
+    value: not_home
+  - styles:
+      name:
+      - color: gray
+    value: unknown
+  styles:
+    icon:
+    - width: 8=90%
+

@@ -310,12 +310,12 @@
 {"k":"{\"nodeId\":8,\"commandClass\":44,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":0}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":0}
-{"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":120.66}
+{"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":119.46}
 {"k":"{\"nodeId\":12,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":18.74}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":38.9}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":121.06}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.33}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":19.13}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":38.94}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":119.87}
+{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.34}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"manufacturerId\"}","v":600}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"productType\"}","v":256}
 {"k":"{\"nodeId\":12,\"commandClass\":114,\"endpoint\":0,\"property\":\"productId\"}","v":4135}
@@ -505,8 +505,8 @@
 {"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"supportedScales\",\"propertyKey\":1}","v":[0,1]}
 {"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"supportedScales\",\"propertyKey\":3}","v":[1]}
 {"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"supportedScales\",\"propertyKey\":5}","v":[0]}
-{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Air temperature\"}","v":77.5}
-{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Humidity\"}","v":60}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Air temperature\"}","v":78.4}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Humidity\"}","v":54}
 {"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":\"isParamInformationFromConfig\"}","v":true}
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":2}","v":0}
@@ -536,7 +536,7 @@
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":113}","v":1800}
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":252}","v":0}
 {"k":"{\"nodeId\":15,\"commandClass\":112,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
-{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Illuminance\"}","v":76}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Illuminance\"}","v":1000}
 {"k":"{\"nodeId\":16,\"commandClass\":132,\"endpoint\":0,\"property\":\"wakeUpInterval\"}","v":14400}
 {"k":"{\"nodeId\":16,\"commandClass\":132,\"endpoint\":0,\"property\":\"controllerNodeId\"}","v":1}
 {"k":"{\"nodeId\":16,\"commandClass\":132,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
@@ -560,7 +560,7 @@
 {"k":"{\"nodeId\":16,\"commandClass\":128,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":16,\"commandClass\":32,\"endpoint\":0,\"property\":\"currentValue\"}","v":0}
 {"k":"{\"nodeId\":16,\"commandClass\":32,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
-{"k":"{\"nodeId\":16,\"commandClass\":48,\"endpoint\":0,\"property\":\"Any\"}","v":false}
+{"k":"{\"nodeId\":16,\"commandClass\":48,\"endpoint\":0,\"property\":\"Any\"}","v":true}
 {"k":"{\"nodeId\":16,\"commandClass\":48,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":16,\"commandClass\":113,\"endpoint\":0,\"property\":\"supportedNotificationTypes\"}","v":[7]}
 {"k":"{\"nodeId\":16,\"commandClass\":113,\"endpoint\":0,\"property\":\"supportsV1Alarm\"}","v":false}
@@ -674,7 +674,3 @@
 {"k":"{\"nodeId\":19,\"commandClass\":38,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":19,\"commandClass\":44,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
 {"k":"{\"nodeId\":19,\"commandClass\":145,\"endpoint\":0,\"property\":\"interviewComplete\"}","v":true}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":65537}","v":-21474817.71}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66049}","v":38.98}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66561}","v":121.15}
-{"k":"{\"nodeId\":14,\"commandClass\":50,\"endpoint\":0,\"property\":\"value\",\"propertyKey\":66817}","v":0.33}

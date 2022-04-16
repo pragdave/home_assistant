@@ -1,0 +1,10 @@
+title: Home
+path: default_view
+cards:
+  - type: vertical-stack
+    cards:
+    - !include ./weather_forecast.yaml
+    - !include ./front_page_buttons.yaml
+    - !include ./front_page_rooms.yaml
+    - !include ./front_page_presence.yaml
+

@@ -1,0 +1,62 @@
+title: Weather
+theme: Backend-selected
+path: weather
+icon: mdi:weather-sunny
+badges: []
+cards:
+- type: vertical-stack
+  cards:
+  - show_current: true
+    show_forecast: true
+    type: weather-forecast
+    entity: weather.kdfw_daynight
+    secondary_info_attribute: humidity
+  - type: entities
+    entities:
+    - entity: sensor.temperature
+      name: Temperature
+    - entity: sensor.humidity
+      name: Humidity
+    - entity: sensor.temperature_dewpoint
+      name: Dewpoint
+    - entity: sensor.barometric_pressure
+      name: Pressure
+  - type: custom:mini-graph-card
+    show:
+      name: false
+      state: false
+      icon: false
+    color_thresholds:
+    - value: -20
+      color: "#d802f9"
+    - value: 0
+      color: "#0206f9"
+    - value: 20
+      color: "#02d4f9"
+    - value: 35
+      color: "#02f950"
+    - value: 50
+      color: "#f9e902"
+    - value: 70
+      color: "#fc4a14"
+    - value: 80
+      color: "#fc2314"
+    - value: 90
+      color: "#7f000c"
+    - value: 100
+      color: "#50007f"
+    entities:
+    - entity: sensor.temperature
+      name: Temp
+    - entity: sensor.humidity
+      name: Humidity
+      color: "#4444FF"
+      y_axis: secondary
+  - type: custom:compass-card
+    indicator_sensors:
+    - sensor: sensor.wind_direction
+      indicator:
+        type: arrow_inward
+    value_sensors:
+    - sensor: sensor.wind_speed
+

@@ -1,0 +1,47 @@
+square: true
+columns: 3
+type: grid
+cards:
+- show_name: true
+  show_icon: true
+  type: button
+  tap_action:
+    action: call-service
+    service: light.toggle
+    service_data:
+      transition: 6
+    target:
+      area_id: living_room
+  entity: light.living_room_lights
+  icon: mdi:sofa-outline
+  name: Living room
+  hold_action:
+    action: navigate
+    navigation_path: living-room
+- show_name: true
+  show_icon: true
+  type: button
+  tap_action:
+    action: call-service
+    service: light.toggle
+    service_data:
+      transition: 6
+    target:
+      area_id: kitchen
+  entity: light.light_over_sink
+  icon: mdi:countertop-outline
+  name: Kitchen
+- show_name: false
+  show_icon: true
+  type: button
+  tap_action:
+    action: navigate
+    navigation_path: weather
+  entity: sensor.temperature
+  icon: mdi:weather-partly-cloudy
+  name: Weather
+  show_state: true
+  hold_action:
+    action: navigate
+    navigation_path: weather
+

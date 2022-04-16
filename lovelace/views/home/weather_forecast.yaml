@@ -1,0 +1,6 @@
+show_current: true
+show_forecast: false
+type: weather-forecast
+entity: weather.kdfw_daynight
+secondary_info_attribute: humidity
+

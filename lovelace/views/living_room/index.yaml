@@ -1,0 +1,31 @@
+title: Living room
+theme: Backend-selected
+path: living-room
+icon: mdi:sofa-outline
+badges: []
+cards:
+- type: light
+  entity: light.scene_capable_push_on_off_dimmer
+- type: light
+  entity: light.scene_capable_dimmer
+- type: entities
+  entities:
+  - entity: sensor.multisensor_gen5_air_temperature
+    name: Temperature
+  - entity: sensor.multisensor_gen5_humidity
+    name: Humidity
+  - entity: sensor.multisensor_gen5_illuminance
+    name: Light level
+  - entity: binary_sensor.multisensor_gen5_home_security_motion_detection_location_provided
+  - entity: sensor.multisensor_gen5_battery_level
+- type: entities
+  entities:
+  - entity: binary_sensor.z_wave_pir_motion_sensor_any
+  - entity: binary_sensor.z_wave_pir_motion_sensor_low_battery_level
+  - entity: binary_sensor.z_wave_pir_motion_sensor_home_security_tampering_product_cover_removed
+- type: entities
+  entities:
+  - entity: binary_sensor.z_wave_pir_motion_sensor_any_2
+  - entity: binary_sensor.z_wave_pir_motion_sensor_home_security_tampering_product_cover_removed_2
+  - entity: sensor.z_wave_pir_motion_sensor_battery_level_2
+

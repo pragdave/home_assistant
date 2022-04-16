@@ -35,17 +35,17 @@ frontend:
 #   #     show_in_sidebar: true
 #   #     require_admin: false
 
-# lovelace:
-#   mode: yaml
-#   resources: !include_dir_merge_list lovelace/resources 
-#   dashboards:
-#     lovelace-dashboard:
-#       mode: yaml
-#       filename: ui-dashboard.yaml
-#       title: Dashboard
-#       icon: mdi:monitor-dashboard
-#       show_in_sidebar: true
-#       require_admin: false
+lovelace:
+  mode: yaml
+  resources: !include_dir_merge_list lovelace/resources 
+  dashboards:
+    lovelace-dashboard:
+      mode: yaml
+      filename: ui-main.yaml
+      title: 1007
+      icon: mdi:monitor-dashboard
+      show_in_sidebar: true
+      require_admin: false
 
 # rainbird:
 #   host: 192.168.86.283

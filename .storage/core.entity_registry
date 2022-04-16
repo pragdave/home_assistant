@@ -1612,7 +1612,7 @@
                 "name": null,
                 "options": {},
                 "original_device_class": "battery",
-                "original_icon": "mdi:battery-40",
+                "original_icon": "mdi:battery-70",
                 "original_name": "Dave's phone Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,

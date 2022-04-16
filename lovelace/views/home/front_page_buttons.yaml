@@ -1,0 +1,62 @@
+square: true
+columns: 3
+type: grid
+cards:
+- square: true
+  columns: 2
+  type: grid
+  cards:
+  - show_name: true
+    show_icon: true
+    type: button
+    tap_action:
+      action: toggle
+    entity: lock.doors
+    name: Doors
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+- show_name: true
+  show_icon: true
+  type: button
+  tap_action:
+    action: toggle
+  entity: zone.home
+  show_state: true
+  hold_action:
+    action: toggle
+  icon: mdi:home-outline
+  icon_height: 64px
+- square: true
+  columns: 2
+  type: grid
+  cards:
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+  - type: button
+    tap_action:
+      action: toggle
+    entity: light.light
+  - show_name: false
+    show_icon: true
+    type: button
+    tap_action:
+      action: more-info
+    entity: sensor.hp_color_laserjet_mfp_m477fdw
+    show_state: true
+

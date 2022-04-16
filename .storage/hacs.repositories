@@ -10,7 +10,7 @@
             "category": "integration",
             "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
             "domain": "hacs",
-            "downloads": 11359,
+            "downloads": 11667,
             "etag_repository": "W/\"bf9eb95e8dabd661979a0e395dbf220558fd8de4b79cb871ad6d0aca875d1a74\"",
             "full_name": "hacs/integration",
             "first_install": false,
@@ -43,7 +43,7 @@
                 "python"
             ],
             "version_installed": "1.24.4",
-            "last_fetched": 1650109445.043162
+            "last_fetched": 1650116645.299364
         },
         "191831638": {
             "authors": [
@@ -15991,7 +15991,7 @@
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
             "domain": null,
-            "downloads": 93866,
+            "downloads": 93885,
             "etag_repository": "W/\"e892ea9cfe2e9ad27269129aeaba42a2725c6f6c47d27ca43a0818fcd0390477\"",
             "full_name": "custom-cards/button-card",
             "first_install": false,
@@ -16020,7 +16020,7 @@
                 "lovelace-ui"
             ],
             "version_installed": "v3.4.2",
-            "last_fetched": 1650109444.978201
+            "last_fetched": 1650116645.022336
         },
         "164022050": {
             "authors": [],
@@ -18773,7 +18773,7 @@
             "category": "plugin",
             "description": "Minimalistic media card for Home Assistant Lovelace UI",
             "domain": "",
-            "downloads": 8776,
+            "downloads": 8810,
             "etag_repository": "W/\"08951470bde8af480599e309d30a1bdeefb3f98868319db1c25c5c91c902c155\"",
             "full_name": "kalkih/mini-media-player",
             "first_install": false,
@@ -18802,7 +18802,7 @@
                 "sonos"
             ],
             "version_installed": "v1.16.1",
-            "last_fetched": 1650109444.765164
+            "last_fetched": 1650116644.870514
         },
         "172998062": {
             "authors": [],
@@ -20450,7 +20450,7 @@
             "stars": 477,
             "topics": [],
             "version_installed": "3.1.1",
-            "last_fetched": 1650109444.813634
+            "last_fetched": 1650116644.93437
         },
         "161403328": {
             "authors": [],
@@ -20683,7 +20683,7 @@
             "category": "plugin",
             "description": "A Lovelace card that shows a directional indicator on a compass for Home Assistant",
             "domain": "",
-            "downloads": 818,
+            "downloads": 826,
             "etag_repository": "W/\"55f6204a0a2ff45a29e3b3327e690c41725c214a9b1623298c63967d78e3333f\"",
             "full_name": "tomvanswam/compass-card",
             "first_install": false,
@@ -20710,7 +20710,7 @@
                 "lovelace-card"
             ],
             "version_installed": "v1.6.0",
-            "last_fetched": 1650109444.986502
+            "last_fetched": 1650116645.033393
         },
         "264796130": {
             "authors": [],
@@ -29004,7 +29004,7 @@
             "category": "plugin",
             "description": "A button card with integrated slider",
             "domain": "",
-            "downloads": 1111,
+            "downloads": 1113,
             "etag_repository": "W/\"102f3707aae18735f458b47abe65eba83dff9bd2c21e56b610150502a71a6b0c\"",
             "full_name": "mattieha/slider-button-card",
             "first_install": false,
@@ -29042,7 +29042,7 @@
                 "slider"
             ],
             "version_installed": "v1.10.2",
-            "last_fetched": 1650109444.952315
+            "last_fetched": 1650116645.183265
         },
         "373832981": {
             "authors": [],
@@ -29792,7 +29792,7 @@
             "category": "plugin",
             "description": "Minimalistic graph card for Home Assistant Lovelace UI",
             "domain": "",
-            "downloads": 32423,
+            "downloads": 32466,
             "etag_repository": "W/\"0225b52044ab0a216058d1ce7e3fdd8f5b81b13cdcbc76ba41e6389073972648\"",
             "full_name": "kalkih/mini-graph-card",
             "first_install": false,
@@ -29823,7 +29823,7 @@
                 "sensor"
             ],
             "version_installed": "v0.11.0",
-            "last_fetched": 1650109445.02
+            "last_fetched": 1650116645.065545
         },
         "201740996": {
             "authors": [

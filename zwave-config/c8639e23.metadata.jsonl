@@ -3326,3 +3326,7 @@
 {"k":"{\"nodeId\":19,\"commandClass\":44,\"endpoint\":0,\"property\":\"dimmingDuration\",\"propertyKey\":254}","v":{"type":"duration","readable":true,"writeable":true,"label":"Dimming duration (254)"}}
 {"k":"{\"nodeId\":19,\"commandClass\":44,\"endpoint\":0,\"property\":\"level\",\"propertyKey\":255}","v":{"type":"number","readable":true,"writeable":true,"min":0,"max":255,"label":"Level (255)","valueChangeOptions":["transitionDuration"]}}
 {"k":"{\"nodeId\":19,\"commandClass\":44,\"endpoint\":0,\"property\":\"dimmingDuration\",\"propertyKey\":255}","v":{"type":"duration","readable":true,"writeable":true,"label":"Dimming duration (255)"}}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Illuminance\"}","v":{"type":"number","readable":true,"writeable":false,"unit":"Lux","label":"Illuminance","ccSpecific":{"sensorType":3,"scale":1}}}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Air temperature\"}","v":{"type":"number","readable":true,"writeable":false,"unit":"°F","label":"Air temperature","ccSpecific":{"sensorType":1,"scale":1}}}
+{"k":"{\"nodeId\":15,\"commandClass\":49,\"endpoint\":0,\"property\":\"Humidity\"}","v":{"type":"number","readable":true,"writeable":false,"unit":"%","label":"Humidity","ccSpecific":{"sensorType":5,"scale":0}}}
+{"k":"{\"nodeId\":16,\"commandClass\":48,\"endpoint\":0,\"property\":\"Any\"}","v":{"type":"boolean","readable":true,"writeable":false,"label":"Any","ccSpecific":{"sensorType":255}}}

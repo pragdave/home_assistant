@@ -13,7 +13,7 @@
         "description": "A Lovelace card that shows a directional indicator on a compass for Home Assistant",
         "domain": "",
         "domains": [],
-        "downloads": 818,
+        "downloads": 826,
         "etag_repository": "W/\"55f6204a0a2ff45a29e3b3327e690c41725c214a9b1623298c63967d78e3333f\"",
         "file_name": "compass-card.js",
         "filename": "compass-card.js",
